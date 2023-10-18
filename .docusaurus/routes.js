@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug', '935'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/config',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/config', 'e2c'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/content',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/content', '97c'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/globalData',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/globalData', '9ce'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/metadata',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/metadata', '103'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/registry',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/registry', '44b'),
-    exact: true
-  },
-  {
-    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/routes',
-    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/routes', '88e'),
-    exact: true
-  },
-  {
     path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog',
     component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog', '143'),
     exact: true

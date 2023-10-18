@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 const math = require('remark-math');
 const katex = require('rehype-katex');
 
@@ -43,7 +42,7 @@ const config = {
   url: 'https://dominicng.co.uk/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'https://github.com/DominicMarkNg/dominicng.github.io',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

@@ -1,247 +1,204 @@
 {
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug-935": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/config-e2c": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/content-97c": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/globalData-9ce": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/metadata-103": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/registry-44b": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/routes-88e": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debug-349-338"
-    }
-  },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog-143": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "metadata": "metadata---https-github-com-dominic-mark-ng-dominicng-github-io-blogfc-5-421"
+    "metadata": "fc5e1953"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/archive-1ac": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "archive": "archive---https-github-com-dominic-mark-ng-dominicng-github-io-blog-archive-27-b-464"
+    "archive": "27b69b9b"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/first-blog-post-80f": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/long-blog-post-38d": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-long-blog-post-736-bc7"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/mdx-blog-post-810": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-mdx-blog-post-593-37b"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags-1e5": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "tags": "tags---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tagsed-1-cbc"
+    "sidebar": "814f3328",
+    "tags": "ed1cddf7"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/docusaurus-e11": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blogf-4-f-cd7"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       },
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-docusaurusbc-9-ae3",
-    "listMetadata": "listMetadata---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-docusaurusb-67-2e5"
+    "tag": "bc9f9b36",
+    "listMetadata": "b67a1f51"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/facebook-868": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       }
     ],
-    "tag": "tag---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-facebookc-8-e-d55",
-    "listMetadata": "listMetadata---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-facebookc-9-f-cfd"
+    "tag": "c8ebed01",
+    "listMetadata": "c9f60256"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hello-1ef": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-766-e3c"
+        "content": "7661071f"
       },
       {
-        "content": "content---blog-871-381"
+        "content": "8717b14a"
       }
     ],
-    "tag": "tag---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-hello-0-a-7-d75",
-    "listMetadata": "listMetadata---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-hello-17-b-3c5"
+    "tag": "0a7940c9",
+    "listMetadata": "17b468e8"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hola-6ae": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "tag": "tag---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-hola-82-b-c10",
-    "listMetadata": "listMetadata---https-github-com-dominic-mark-ng-dominicng-github-io-blog-tags-holafe-6-bcf"
+    "tag": "82b2d281",
+    "listMetadata": "fe6c1955"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/blog/welcome-1f5": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
-      "plugin": "plugin---blogf-53-349"
+      "plugin": "f531b45d"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-welcomed-9-f-ffb"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/markdown-page-69c": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagecec-83b"
+      "plugin": "cecb7282"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs-d78": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__comp": "1be78505",
     "__context": {
-      "plugin": "plugin---docs-3-dc-34f"
+      "plugin": "3dc2cb18"
     },
-    "versionMetadata": "versionMetadata---docs-935-398"
+    "versionMetadata": "935f2afb"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---basics-cd9": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---https-github-com-dominic-mark-ng-dominicng-github-io-docs-category-tutorial-basics-80-d-ef6"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "80d6723f"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---extras-f20": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---https-github-com-dominic-mark-ng-dominicng-github-io-docs-category-tutorial-extras-1-d-2-3e8"
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "1d2bb551"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/intro-fdf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/congratulations-c88": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
+    "__comp": "17896441",
+    "content": "822bd8ab"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-blog-post-4d6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
+    "__comp": "17896441",
+    "content": "533a09ca"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-document-2e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
+    "__comp": "17896441",
+    "content": "1e4232ab"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-page-ab6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
+    "__comp": "17896441",
+    "content": "5c868d36"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/deploy-your-site-6c2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
+    "__comp": "17896441",
+    "content": "f55d3e7a"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/markdown-features-153": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
+    "__comp": "17896441",
+    "content": "18c41134"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/manage-docs-versions-605": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
+    "__comp": "17896441",
+    "content": "dff1c289"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/translate-your-site-5fa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
+    "__comp": "17896441",
+    "content": "e44a2883"
   },
   "/https://github.com/DominicMarkNg/dominicng.github.io/-809": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---markdown-pagecec-83b"
+      "plugin": "cecb7282"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
