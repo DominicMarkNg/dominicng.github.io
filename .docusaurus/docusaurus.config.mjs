@@ -7,10 +7,10 @@ export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://dominicng.co.uk",
+  "baseUrl": "/https://github.com/DominicMarkNg/dominicng.github.io/",
+  "organizationName": "https://github.com/DominicMarkNg",
+  "projectName": "dominicng.github.io",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -52,7 +52,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "My Notes"
         },
         {
           "to": "/blog",
@@ -74,7 +74,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "My Notes",
               "to": "/docs/intro"
             }
           ]
@@ -84,15 +84,15 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://github.com/DominicMarkNg/"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://github.com/DominicMarkNg/"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://github.com/DominicMarkNg/"
             }
           ]
         },
@@ -105,7 +105,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/DominicMarkNg/"
             }
           ]
         }

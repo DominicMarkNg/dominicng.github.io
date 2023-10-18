@@ -3,140 +3,175 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '8fa'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug', '935'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '139'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/config',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/config', 'e2c'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '4dd'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/content',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/content', '97c'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '8cb'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/globalData',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/globalData', '9ce'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '8fd'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/metadata',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/metadata', '103'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'a43'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/registry',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/registry', '44b'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'fa3'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/routes',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/__docusaurus/debug/routes', '88e'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'e76'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog', '143'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'f33'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/archive',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/archive', '1ac'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'e1e'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/first-blog-post',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/first-blog-post', '80f'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '39f'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/long-blog-post',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/long-blog-post', '38d'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '622'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/mdx-blog-post',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/mdx-blog-post', '810'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '743'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags', '1e5'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/docusaurus',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/docusaurus', 'e11'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/facebook',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/facebook', '868'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hello',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hello', '1ef'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hola',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hola', '6ae'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/blog/welcome',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/blog/welcome', '1f5'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/markdown-page',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/markdown-page', '69c'),
+    exact: true
+  },
+  {
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs', 'd78'),
     routes: [
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---basics',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---basics', 'cd9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---extras',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---extras', 'f20'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/intro',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/intro', 'fdf'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/congratulations',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/congratulations', 'c88'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-blog-post',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-blog-post', '4d6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-document',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-document', '2e4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-page',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-page', 'ab6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/deploy-your-site',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/deploy-your-site', '6c2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/markdown-features',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/markdown-features', '153'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/manage-docs-versions',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/manage-docs-versions', '605'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+        path: '/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/translate-your-site',
+        component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/translate-your-site', '5fa'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '2ac'),
+    path: '/https://github.com/DominicMarkNg/dominicng.github.io/',
+    component: ComponentCreator('/https://github.com/DominicMarkNg/dominicng.github.io/', '809'),
     exact: true
   },
   {

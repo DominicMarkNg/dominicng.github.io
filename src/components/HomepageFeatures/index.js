@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Mathematics',
+    Svg: require('@site/static/img/mathematics_icon.svg').default, // replace with appropriate SVG
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        My notes on measure theory, probability, linear algebra, and matrix calculus
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Data Science',
+    Svg: require('@site/static/img/machine_learning_icon.svg').default, // replace with appropriate SVG
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Recreating basic algorithms and implementing basic neural networks
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Neurology and Medicine',
+    Svg: require('@site/static/img/neurology_icon.svg').default, // replace with appropriate SVG
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        My notes from studying for the USMLE/ MRCP
       </>
     ),
   },
