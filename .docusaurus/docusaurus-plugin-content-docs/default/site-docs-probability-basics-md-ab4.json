@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Probability/Basics",
+  "id": "Probability/Basics",
+  "title": "Basics",
+  "description": "This is an apple 🍎",
+  "source": "@site/docs/Probability/Basics.md",
+  "sourceDirName": "Probability",
+  "slug": "/Probability/Basics",
+  "permalink": "/docs/Probability/Basics",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Probability/Basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "The Basics",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Probability",
+    "permalink": "/docs/category/probability"
+  },
+  "next": {
+    "title": "Binomial Distributions",
+    "permalink": "/docs/Probability/Binomial Distributions"
+  }
+}

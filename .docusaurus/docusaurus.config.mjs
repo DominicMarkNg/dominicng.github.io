@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Dominic Ng",
+  "tagline": "Notes",
   "favicon": "img/favicon.ico",
   "url": "https://dominicng.co.uk",
-  "baseUrl": "/https://github.com/DominicMarkNg/dominicng.github.io/",
+  "baseUrl": "/",
   "organizationName": "https://github.com/DominicMarkNg",
-  "projectName": "dominicng.github.io",
+  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,7 +27,13 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/dominicng/Documents/GitHub/dominicng.github.io/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "blog": {
           "showReadingTime": true,
@@ -38,6 +44,20 @@ export default {
         }
       }
     ]
+  ],
+  "markdown": {
+    "mermaid": true
+  },
+  "themes": [
+    "@docusaurus/theme-mermaid"
+  ],
+  "stylesheets": [
+    {
+      "href": "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      "type": "text/css",
+      "integrity": "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      "crossorigin": "anonymous"
+    }
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
@@ -52,7 +72,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "My Notes"
+          "label": "Tutorial"
         },
         {
           "to": "/blog",
@@ -74,7 +94,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "My Notes",
+              "label": "Tutorial",
               "to": "/docs/intro"
             }
           ]
@@ -84,15 +104,15 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://github.com/DominicMarkNg/"
+              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
               "label": "Discord",
-              "href": "https://github.com/DominicMarkNg/"
+              "href": "https://discordapp.com/invite/docusaurus"
             },
             {
               "label": "Twitter",
-              "href": "https://github.com/DominicMarkNg/"
+              "href": "https://twitter.com/docusaurus"
             }
           ]
         },
@@ -105,7 +125,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/DominicMarkNg/"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
@@ -316,6 +336,13 @@ export default {
         }
       ]
     },
+    "mermaid": {
+      "theme": {
+        "light": "neutral",
+        "dark": "forest"
+      },
+      "options": {}
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -341,14 +368,9 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
-  "noIndex": false,
-  "markdown": {
-    "mermaid": false
-  }
+  "noIndex": false
 };

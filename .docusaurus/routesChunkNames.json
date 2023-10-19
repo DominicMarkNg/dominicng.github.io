@@ -1,5 +1,5 @@
 {
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog-143": {
+  "/blog-8fa": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "f531b45d"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "fc5e1953"
+    "metadata": "b2b675dd"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/archive-1ac": {
+  "/blog/archive-139": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "f531b45d"
     },
-    "archive": "27b69b9b"
+    "archive": "b2f554cd"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/first-blog-post-80f": {
+  "/blog/first-blog-post-4dd": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
@@ -36,7 +36,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/long-blog-post-38d": {
+  "/blog/long-blog-post-8cb": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
@@ -44,7 +44,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/mdx-blog-post-810": {
+  "/blog/mdx-blog-post-8fd": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
@@ -52,15 +52,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags-1e5": {
+  "/blog/tags-a43": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "f531b45d"
     },
     "sidebar": "814f3328",
-    "tags": "ed1cddf7"
+    "tags": "a7023ddc"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/docusaurus-e11": {
+  "/blog/tags/docusaurus-fa3": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -80,10 +80,10 @@
         "content": "925b3f96"
       }
     ],
-    "tag": "bc9f9b36",
-    "listMetadata": "b67a1f51"
+    "tag": "a80da1cf",
+    "listMetadata": "608ae6a4"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/facebook-868": {
+  "/blog/tags/facebook-e76": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -94,10 +94,10 @@
         "content": "7661071f"
       }
     ],
-    "tag": "c8ebed01",
-    "listMetadata": "c9f60256"
+    "tag": "031793e1",
+    "listMetadata": "096bfee4"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hello-1ef": {
+  "/blog/tags/hello-f33": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -111,10 +111,10 @@
         "content": "8717b14a"
       }
     ],
-    "tag": "0a7940c9",
-    "listMetadata": "17b468e8"
+    "tag": "30a24c52",
+    "listMetadata": "66406991"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/tags/hola-6ae": {
+  "/blog/tags/hola-e1e": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -125,10 +125,10 @@
         "content": "925b3f96"
       }
     ],
-    "tag": "82b2d281",
-    "listMetadata": "fe6c1955"
+    "tag": "e16015ca",
+    "listMetadata": "4c9e35b1"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/blog/welcome-1f5": {
+  "/blog/welcome-39f": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
@@ -136,65 +136,41 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/markdown-page-69c": {
+  "/markdown-page-622": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "cecb7282"
     },
     "content": "393be207"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs-d78": {
+  "/docs-a55": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
     },
     "versionMetadata": "935f2afb"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---basics-cd9": {
+  "/docs/category/probability-36c": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "80d6723f"
+    "categoryGeneratedIndex": "37804ff6"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---extras-f20": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "1d2bb551"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/intro-fdf": {
+  "/docs/intro-aed": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/congratulations-c88": {
+  "/docs/Linear Algebra/Intro-0f4": {
     "__comp": "17896441",
-    "content": "822bd8ab"
+    "content": "b1e732a7"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-blog-post-4d6": {
+  "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions-f0a": {
     "__comp": "17896441",
-    "content": "533a09ca"
+    "content": "1d23dc76"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-document-2e4": {
+  "/docs/Probability/Set Theory-6f0": {
     "__comp": "17896441",
-    "content": "1e4232ab"
+    "content": "179ce8ec"
   },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-page-ab6": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/deploy-your-site-6c2": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/markdown-features-153": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/manage-docs-versions-605": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/translate-your-site-5fa": {
-    "__comp": "17896441",
-    "content": "e44a2883"
-  },
-  "/https://github.com/DominicMarkNg/dominicng.github.io/-809": {
+  "/-2ac": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "cecb7282"

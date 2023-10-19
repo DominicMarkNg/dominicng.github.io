@@ -3,19 +3,19 @@
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/https://github.com/DominicMarkNg/dominicng.github.io/blog/welcome"
+      "permalink": "/blog/welcome"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/https://github.com/DominicMarkNg/dominicng.github.io/blog/mdx-blog-post"
+      "permalink": "/blog/mdx-blog-post"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/https://github.com/DominicMarkNg/dominicng.github.io/blog/long-blog-post"
+      "permalink": "/blog/long-blog-post"
     },
     {
       "title": "First Blog Post",
-      "permalink": "/https://github.com/DominicMarkNg/dominicng.github.io/blog/first-blog-post"
+      "permalink": "/blog/first-blog-post"
     }
   ]
 }

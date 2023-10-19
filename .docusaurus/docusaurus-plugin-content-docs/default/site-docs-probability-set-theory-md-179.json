@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Probability/Set Theory",
+  "id": "Probability/Set Theory",
+  "title": "Introduction to Set Theory Notation",
+  "description": "In set theory, specific symbols represent distinct sets of numbers. These include:",
+  "source": "@site/docs/Probability/Set Theory.md",
+  "sourceDirName": "Probability",
+  "slug": "/Probability/Set Theory",
+  "permalink": "/docs/Probability/Set Theory",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Probability/Set Theory.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "Set Theory and Notation",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Probability",
+    "permalink": "/docs/category/probability"
+  },
+  "next": {
+    "title": "Intro",
+    "permalink": "/docs/Linear Algebra/Intro"
+  }
+}

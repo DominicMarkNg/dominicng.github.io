@@ -11,131 +11,70 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/intro",
+        "label": "intro",
+        "href": "/docs/intro",
         "docId": "intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Probability",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
+            "label": "Introduction to Set Theory Notation",
+            "href": "/docs/Probability/Set Theory",
+            "docId": "Probability/Set Theory"
           }
         ],
-        "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---basics"
+        "href": "/docs/category/probability"
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Linear Algebra",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
+            "label": "Intro",
+            "href": "/docs/Linear Algebra/Intro",
+            "docId": "Linear Algebra/Intro"
           },
           {
             "type": "link",
-            "label": "Translate your site",
-            "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
+            "label": "Matrix Operations, Special Matrices, and Matrix Decompositions",
+            "href": "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
+            "docId": "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions"
           }
-        ],
-        "href": "/https://github.com/DominicMarkNg/dominicng.github.io/docs/category/tutorial---extras"
+        ]
       }
     ]
   },
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "intro",
+      "description": "This is an apple 🍎",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+    "Linear Algebra/Intro": {
+      "id": "Linear Algebra/Intro",
+      "title": "Intro",
+      "description": "1.1 Vectors and Linear Combinations",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+    "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions": {
+      "id": "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
+      "title": "Matrix Operations, Special Matrices, and Matrix Decompositions",
+      "description": "Matrix Multiplication as Linear Combination of Columns",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+    "Probability/Set Theory": {
+      "id": "Probability/Set Theory",
+      "title": "Introduction to Set Theory Notation",
+      "description": "In set theory, specific symbols represent distinct sets of numbers. These include:",
       "sidebar": "tutorialSidebar"
     }
   }
