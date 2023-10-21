@@ -324,7 +324,10 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "r",
+        "julia"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -342,6 +345,19 @@ export default {
         "dark": "forest"
       },
       "options": {}
+    },
+    "algolia": {
+      "appId": "8QK9VJ3FDW",
+      "apiKey": "7b028d8e964c792e76ac612da733032d",
+      "indexName": "dominicng-co",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "replaceSearchResultPathname": {
+        "from": "/docs/",
+        "to": "/"
+      },
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",

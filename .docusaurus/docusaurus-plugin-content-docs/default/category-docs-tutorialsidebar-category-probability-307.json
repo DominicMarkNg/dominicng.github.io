@@ -1,0 +1,16 @@
+{
+  "title": "Probability",
+  "description": "Measuring Uncertainty",
+  "slug": "/category/probability",
+  "permalink": "/docs/category/probability",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Introduction to Set Theory Notation",
+      "permalink": "/docs/Probability/Set Theory"
+    }
+  }
+}
