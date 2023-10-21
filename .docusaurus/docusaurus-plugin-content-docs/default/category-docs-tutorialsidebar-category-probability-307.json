@@ -5,8 +5,8 @@
   "permalink": "/docs/category/probability",
   "navigation": {
     "previous": {
-      "title": "Introduction",
-      "permalink": "/docs/Introduction"
+      "title": "intro",
+      "permalink": "/docs/intro"
     },
     "next": {
       "title": "Introduction to Set Theory Notation",

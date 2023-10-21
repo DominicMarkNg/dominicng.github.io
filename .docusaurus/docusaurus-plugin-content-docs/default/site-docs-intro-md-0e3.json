@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "intro",
-  "description": "This is an apple 🍎",
+  "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -13,6 +13,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "Title": "Introduction",
     "sidebar_position": 1
   },
   "sidebar": "tutorialSidebar",

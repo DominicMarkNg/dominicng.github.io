@@ -15,7 +15,6 @@ Hope someone finds this useful!
 When code is written this will be in Python (Pytorch) or Julia.
 
 <Tabs>
-</TabItem>
 <TabItem value="py" label="Python">
 
 ```py

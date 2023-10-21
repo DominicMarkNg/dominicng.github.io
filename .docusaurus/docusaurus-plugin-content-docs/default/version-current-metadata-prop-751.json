@@ -11,9 +11,9 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Introduction",
-        "href": "/docs/Introduction",
-        "docId": "Introduction"
+        "label": "intro",
+        "href": "/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -325,9 +325,9 @@
       "description": "An intuitive explanation as to why this might be",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction": {
-      "id": "Introduction",
-      "title": "Introduction",
+    "intro": {
+      "id": "intro",
+      "title": "intro",
       "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
       "sidebar": "tutorialSidebar"
     },
