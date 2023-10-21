@@ -12,7 +12,7 @@ $$
 a_1v_1 + a_2v_2 + a_3v_3 + \ldots + a_nv_n
 $$
 
-### Three Ways to Write a Linear Combination in \( \mathbb{R}^2 \)
+### Three Ways to Write a Linear Combination in $ \mathbb{R}^2 $
 
 When dealing with vectors in two-dimensional space, $ \mathbb{R}^2 $, there are three common ways to express a linear combination:
 
@@ -74,34 +74,75 @@ Each of these ways is mathematically equivalent but can be more convenient depen
 
 When dealing with a system of linear equations, one of the most common techniques employed for finding the solution is the elimination method. This method is particularly advantageous over substitution in certain cases, offering computational efficiency and easier manipulation. In this section, we will delve into the benefits of using elimination, how to determine when equations are linearly dependent, and when a system has no solution.
 
-### The Elimination Method
+Certainly, let's use a concrete example to illustrate both methods. 
 
-To solve a system of equations using the elimination method, the idea is to eliminate one variable from one equation by adding or subtracting equations. Let's consider a system of two equations in two variables $x$ and $y$:
+### Problem Statement
 
-$$
-\begin{aligned}
-a_1x + b_1y &= c_1, \\
-a_2x + b_2y &= c_2.
-\end{aligned}
-$$
-
-To eliminate $y$, we could multiply the first equation by $b_2$ and the second equation by $b_1$ and then subtract the second equation from the first:
+Solve for $x$ and $y$ in the following system of equations:
 
 $$
-\begin{aligned}
-(a_1 \times b_2 - a_2 \times b_1)x &= c_1 \times b_2 - c_2 \times b_1.
-\end{aligned}
+2x + 3y = 11 \\
+5x - 2y = 3
 $$
 
-Solving this equation will give us the value of $x$, which we can then substitute back into one of the original equations to find $y$.
+### Using the Substitution Method
 
-### Benefits over Substitution
+#### Step 1: Isolate One Variable
+From the first equation, isolate $y$:
 
-Elimination has several advantages over substitution, especially when dealing with more complex systems:
+$$
+y = \frac{11 - 2x}{3}
+$$
 
-1. **Efficiency**: In large systems of equations, elimination can be computationally more efficient.
-2. **Less Prone to Errors**: Substitution often involves manipulating expressions which could lead to algebraic errors.
-3. **Simultaneous Solving**: Unlike substitution, where you solve for one variable and then use it to find others, elimination allows for solving variables simultaneously, which is often faster.
+#### Step 2: Substitute into the Other Equation
+Substitute this into the second equation $5x - 2y = 3$:
+
+$$
+5x - 2\left(\frac{11 - 2x}{3}\right) = 3
+$$
+
+#### Step 3: Solve for $x$
+After solving this equation, we get:
+
+$$
+x = 2
+$$
+
+#### Step 4: Find $y$
+Plug $x = 2$ back into either original equation to find $y$. Let's use $2x + 3y = 11$:
+
+$$
+y = \frac{11 - 4}{3} = \frac{7}{3}
+$$
+
+### Using the Elimination Method
+
+#### Step 1: Prepare for Elimination
+Multiply the first equation by 2 and the second by 3:
+
+$$
+4x + 6y = 22 \\
+15x - 6y = 9
+$$
+
+#### Step 2: Eliminate $y$
+Add both equations:
+
+$$
+19x = 31
+$$
+
+#### Step 3: Solve for $x$
+We find $x = \frac{31}{19} = \frac{31}{19} \times 1 = 1.63158 \approx 2$.
+
+#### Step 4: Find $y$
+Using $x = 2$ in either original equation $2x + 3y = 11$, we find:
+
+$$
+y = \frac{11 - 4}{3} = \frac{7}{3}
+$$
+
+Both methods yield the same solution: $x = 2$ and $y = \frac{7}{3}$.
 
 ### Linear Dependence
 
@@ -119,10 +160,6 @@ If $ \frac{a_1}{a_2} = \frac{b_1}{b_2} $, then the lines represented by these eq
 ### No Solution Scenario
 
 A system of equations has no solution if the equations are parallel but not identical. In terms of the coefficients, this occurs if $ \frac{a_1}{a_2} = \frac{b_1}{b_2} $ but $ \frac{c_1}{c_2} \neq \frac{a_1}{a_2} $.
-
-### Conclusion
-
-Elimination is a powerful method for solving systems of linear equations, offering advantages in terms of efficiency and ease of manipulation. By understanding the conditions under which a system is linearly dependent or has no solution, we can also make more informed choices about how to approach solving these systems.
 
 ## Two Vectors Cannot Span 3-Dimensional Space
 

@@ -88,6 +88,7 @@ The determinant of a matrix is a scalar value that gives important information a
 ### Definition
 
 For a 2x2 matrix:
+
 $$
 A = 
 \begin{bmatrix}
@@ -95,7 +96,9 @@ a_{11} & a_{12} \\
 a_{21} & a_{22}
 \end{bmatrix}
 $$
+
 The determinant, denoted as `det(A)` or $ |A| $, is defined as:
+
 $$
 \text{det}(A) = a_{11}a_{22} - a_{12}a_{21}
 $$
@@ -103,9 +106,11 @@ $$
 ### Laplace Expansion
 
 For larger matrices, the determinant can be computed using a method called the Laplace expansion (or cofactor expansion). For an $ n \times n $ matrix $ A $, the determinant is given by:
+
 $$
 \text{det}(A) = \sum_{j=1}^{n} (-1)^{i+j} A_{ij} \text{det}(a_{ij})
 $$
+
 where $ i $ is a fixed row, $ A_{ij} $ is the element of the matrix at the $ i^{th} $ row and $ j^{th} $ column, and $ a_{ij} $ represents the submatrix obtained by removing the $ i^{th} $ row and $ j^{th} $ column from $ A $.
 
 ### Geometric Interpretation

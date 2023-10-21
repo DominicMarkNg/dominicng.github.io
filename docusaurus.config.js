@@ -148,6 +148,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: [
+          "julia",
+          "r",          
+        ],
       },
       mermaid: {
         theme: {light: 'neutral', dark: 'forest'},

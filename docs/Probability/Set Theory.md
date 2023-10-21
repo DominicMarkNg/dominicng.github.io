@@ -153,3 +153,116 @@ $$3 \cdot (2 + 4) = (3 \cdot 2) + (3 \cdot 4) = 6 + 12 = 18$$
 The Distributive Law enables us to distribute the multiplication across the addition, making the calculation straightforward.
 
 In summary, the Distributive Law plays a fundamental role in mathematics, aiding in the simplification of expressions and solving equations involving multiplication and addition (or subtraction).
+
+# Cartesian Product and the Multiplication Principle
+
+In mathematics, the **Cartesian product** of two sets, denoted as $A \times B$, combines ordered pairs from sets $A$ and $B$. In other words, if $C = A \times B$, then each element in $C$ takes the form $(x, y)$, where $x$ is an element of set $A$, and $y$ is an element of set $B$:
+
+$$
+A \times B = \{(x, y) \, | \, x \in A \text{ and } y \in B\}
+$$
+
+For example, if $A = \{1, 2, 3\}$ and $B = \{H, T\}$, then:
+
+$$
+A \times B = \{(1, H), (1, T), (2, H), (2, T), (3, H), (3, T)\}
+$$
+
+It's important to note that the order of pairs matters, so $(1, H)$ is distinct from $(H, 1)$, making $A \times B$ different from $B \times A$.
+
+If you have two finite sets $A$ and $B$, where $A$ has $M$ elements and $B$ has $N$ elements, then $A \times B$ contains $M \times N$ elements. This principle is known as the multiplication principle and is valuable in counting the elements in sets. The number of elements in a set is denoted by $|A|$, so we write $|A| = M$, $|B| = N$, and $|A \times B| = MN$. In the example given, $|A| = 3$, $|B| = 2$, thus $|A \times B| = 3 \times 2 = 6$.
+
+The Cartesian product of $n$ sets $A_1, A_2, \ldots, A_n$ can be defined as:
+
+$$
+A_1 \times A_2 \times A_3 \times \ldots \times A_n = \{(x_1, x_2, \ldots, x_n) \, | \, x_1 \in A_1, x_2 \in A_2, \ldots, x_n \in A_n\}
+$$
+
+The multiplication principle states that for finite sets $A_1, A_2, \ldots, A_n$, if $|A_1| = M_1$, $|A_2| = M_2$, \ldots, $|A_n| = M_n$, then:
+
+$$
+|A_1 \times A_2 \times A_3 \times \ldots \times A_n| = M_1 \times M_2 \times M_3 \times \ldots \times M_n
+$$
+
+An important example of sets obtained using a Cartesian product is $\mathbb{R}^n$, where $n$ is a natural number. For $n = 2$:
+
+$$
+\mathbb{R}^2 = \mathbb{R} \times \mathbb{R} = \{(x, y) \, | \, x \in \mathbb{R}, y \in \mathbb{R}\}
+$$
+
+Thus, $\mathbb{R}^2$ represents all points in the two-dimensional plane, and similarly, $\mathbb{R}^3 = \mathbb{R} \times \mathbb{R} \times \mathbb{R}$, and so on.
+
+# Cardinality of Sets and the Inclusion-Exclusion Principle
+
+In mathematics, the **cardinality** of a set, denoted as $|A|$, represents the size or number of elements in the set.
+
+## Finite Sets
+
+For finite sets, determining cardinality is straightforward. If set $A$ has a finite number of elements, its cardinality is the count of those elements. For example, if $A = \{2, 4, 6, 8, 10\}$, then $|A| = 5$.
+
+## Inclusion-Exclusion Principle
+
+The **inclusion-exclusion principle** is a useful rule for combining the cardinalities of sets, especially when dealing with unions.
+
+### Two Sets $A$ and $B$
+
+For two finite sets $A$ and $B$, the cardinality of their union is calculated as:
+
+$$
+|A \cup B| = |A| + |B| - |A \cap B|
+$$
+
+This formula accounts for the double-counting of elements in $A \cap B$ when adding $|A|$ and $|B|$.
+
+### Three Sets $A$, $B$, and $C$
+
+For three sets $A$, $B$, and $C$, the formula becomes:
+
+$$
+|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|
+$$
+
+### Generalization to $n$ Sets
+
+This pattern continues for $n$ finite sets $A_1, A_2, A_3, \ldots, A_n$, and the formula is:
+
+$$
+|A_1 \cup A_2 \cup A_3 \cup \ldots \cup A_n| = \sum_{i=1}^{n} |A_i| - \sum_{i < j} |A_i \cap A_j| + \sum_{i < j < k} |A_i \cap A_j \cap A_k| - \ldots + (-1)^{n+1} |A_1 \cap A_2 \cap \ldots \cap A_n|
+$$
+
+These principles are essential in counting elements and solving problems involving the sizes of unions and intersections of sets.
+
+# Countable and Uncountable Sets
+
+## Infinite Sets
+
+When dealing with infinite sets, we encounter two distinct types: countable and uncountable sets. Countable sets, such as $ \mathbb{N} $ (natural numbers) and $ \mathbb{Z} $ (integers), possess a property that allows us to list their elements, while uncountable sets, like $ \mathbb{R} $ (real numbers), cannot be listed in such a manner. This distinction arises from the different "sizes" of these infinite sets.
+
+## Countable Sets
+
+Countable sets can be listed, meaning their elements can be arranged in a sequence like $ A = \{a_1, a_2, \ldots\} $. For example, $ \mathbb{N} $ can be listed as $ \mathbb{N} = \{1, 2, 3, \ldots\} $, and $ \mathbb{Z} $ as $ \mathbb{Z} = \{0, 1, -1, 2, -2, 3, -3, \ldots\} $. The crucial characteristic of countable sets is that they can be put into a one-to-one correspondence with natural numbers, denoted by $ \mathbb{N} $. In other words, there exists a way to match each element of the countable set with a unique natural number.
+
+### Definition
+
+A set $ A $ is called countable if one of the following conditions holds:
+
+1. It is a finite set, i.e., $ |A| < \infty $.
+2. It can be put in one-to-one correspondence with natural numbers, in which case the set is said to be countably infinite.
+
+Sets that do not meet these conditions are classified as uncountable sets.
+
+## Uncountable Sets
+
+Uncountable sets, in contrast, cannot be listed in a sequence like countable sets can. The quintessential example of an uncountable set is $ \mathbb{R} $, the set of real numbers. It is impossible to list all real numbers in a systematic way because there are more real numbers than there are natural numbers. In mathematical terms, $ \mathbb{R} $ is uncountable.
+
+### Guideline
+
+For practical purposes, we can use the following guideline to determine whether a set is countable or not:
+
+- $ \mathbb{N} $, $ \mathbb{Z} $, $ \mathbb{Q} $ (rational numbers), and any of their subsets are countable.
+- Any set containing an interval on the real line, such as $ [a, b] $, $ (a, b] $, $ [a, b) $, or $ (a, b) $, where $ a < b $, is uncountable.
+
+This rule is generally sufficient for most applications in applied probability. However, for a more in-depth understanding and formal proofs, additional results and theorems can be employed to determine whether a set is countable or uncountable. If you prefer not to delve into proofs, you may choose to skip this section.
+
+In summary, the distinction between countable and uncountable sets is a fundamental concept in mathematics, especially in areas like probability theory, where it helps us classify sets based on their "size" and properties.
+
