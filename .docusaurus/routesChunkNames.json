@@ -143,7 +143,13 @@
     },
     "content": "393be207"
   },
-  "/docs-a11": {
+  "/search-180": {
+    "__comp": "1a4e3797",
+    "__context": {
+      "plugin": "5478dce0"
+    }
+  },
+  "/docs-b3c": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
@@ -214,9 +220,9 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "37804ff6"
   },
-  "/docs/intro-aed": {
+  "/docs/Introduction-de5": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "e0a19902"
   },
   "/docs/Linear Algebra/Intro-0f4": {
     "__comp": "17896441",

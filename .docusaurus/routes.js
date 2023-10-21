@@ -63,8 +63,13 @@ export default [
     exact: true
   },
   {
+    path: '/search',
+    component: ComponentCreator('/search', '180'),
+    exact: true
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a11'),
+    component: ComponentCreator('/docs', 'b3c'),
     routes: [
       {
         path: '/docs/Calculus/Elementary/Basic Rules + Proofs',
@@ -163,8 +168,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/docs/Introduction',
+        component: ComponentCreator('/docs/Introduction', 'de5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

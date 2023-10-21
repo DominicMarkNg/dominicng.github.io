@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Introduction",
           "docs": [
             {
               "id": "Calculus/Elementary/Basic Rules + Proofs",
@@ -86,8 +86,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "Introduction",
+              "path": "/docs/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -145,8 +145,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/Introduction",
+                "label": "Introduction"
               }
             }
           }

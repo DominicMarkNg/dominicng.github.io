@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Introduction",
+  "id": "Introduction",
+  "title": "Introduction",
+  "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
+  "source": "@site/docs/Introduction.md",
+  "sourceDirName": ".",
+  "slug": "/Introduction",
+  "permalink": "/docs/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "Introduction",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Probability",
+    "permalink": "/docs/category/probability"
+  }
+}
