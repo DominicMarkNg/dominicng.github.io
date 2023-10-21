@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Data Science & Mathematics</h1>
+        <h1 className="hero__title">Medicine, Mathematics, and Data Science</h1>
         <p className="hero__subtitle">A deep dive into the world of algorithms, computations, and the math behind them.</p>
         <div className={styles.buttons}>
           <Link
