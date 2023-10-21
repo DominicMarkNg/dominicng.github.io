@@ -324,7 +324,10 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "r",
+        "julia"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
