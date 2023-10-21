@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/LHopitalsrule",
+  "id": "Calculus/Elementary/LHopitalsrule",
+  "title": "LHopitalsrule",
+  "description": "L'Hopital's Rule",
+  "source": "@site/docs/Calculus/Elementary/LHopitalsrule.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/LHopitalsrule",
+  "permalink": "/docs/Calculus/Elementary/LHopitalsrule",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/LHopitalsrule.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "Title": "L'Hôpital's rule",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Power Rule, Product Rule, and Quotient Rule",
+    "permalink": "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule"
+  },
+  "next": {
+    "title": "Mean Value Function",
+    "permalink": "/docs/Calculus/Elementary/Mean Value Function"
+  }
+}

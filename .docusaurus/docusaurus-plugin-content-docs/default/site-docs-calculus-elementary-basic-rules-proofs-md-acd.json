@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Basic Rules + Proofs",
+  "id": "Calculus/Elementary/Basic Rules + Proofs",
+  "title": "Basic Rules + Proofs",
+  "description": "Constant Rule",
+  "source": "@site/docs/Calculus/Elementary/Basic Rules + Proofs.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Basic Rules + Proofs",
+  "permalink": "/docs/Calculus/Elementary/Basic Rules + Proofs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Basic Rules + Proofs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "Title": "Basic Rules and Proofs",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Derivatives",
+    "permalink": "/docs/Calculus/Elementary/Derivatives"
+  },
+  "next": {
+    "title": "Derivatives of special equations",
+    "permalink": "/docs/Calculus/Elementary/Derivatives of special equations"
+  }
+}

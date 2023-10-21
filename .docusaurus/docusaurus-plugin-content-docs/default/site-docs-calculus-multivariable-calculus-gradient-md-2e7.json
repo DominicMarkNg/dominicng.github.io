@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Multivariable Calculus/Gradient",
+  "id": "Calculus/Multivariable Calculus/Gradient",
+  "title": "Gradient",
+  "description": "Gradient: Definition",
+  "source": "@site/docs/Calculus/Multivariable Calculus/Gradient.md",
+  "sourceDirName": "Calculus/Multivariable Calculus",
+  "slug": "/Calculus/Multivariable Calculus/Gradient",
+  "permalink": "/docs/Calculus/Multivariable Calculus/Gradient",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Multivariable Calculus/Gradient.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "Title": "Gradient + Directional Derivatives",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partial Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives"
+  },
+  "next": {
+    "title": "Second Partial Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Second Partial Derivatives"
+  }
+}

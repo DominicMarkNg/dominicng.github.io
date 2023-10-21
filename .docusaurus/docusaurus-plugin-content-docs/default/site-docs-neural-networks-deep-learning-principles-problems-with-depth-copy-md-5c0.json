@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Deep Learning Principles/Problems with Depth copy",
+  "id": "Neural Networks/Deep Learning Principles/Problems with Depth copy",
+  "title": "Problems with Depth copy",
+  "description": "",
+  "source": "@site/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy.md",
+  "sourceDirName": "Neural Networks/Deep Learning Principles",
+  "slug": "/Neural Networks/Deep Learning Principles/Problems with Depth copy",
+  "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "Title": "Depth-Friendly Architectures",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Problems with Depth",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth"
+  },
+  "next": {
+    "title": "Intro",
+    "permalink": "/docs/Linear Algebra/Intro"
+  }
+}

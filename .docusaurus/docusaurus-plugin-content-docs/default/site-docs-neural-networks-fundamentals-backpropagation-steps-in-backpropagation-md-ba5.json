@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+  "id": "Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+  "title": "Steps in Backpropagation",
+  "description": "Backpropagation in Neural Networks",
+  "source": "@site/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation.md",
+  "sourceDirName": "Neural Networks/Fundamentals/Backpropagation",
+  "slug": "/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+  "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "Title": "Backpropagation Steps",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concavity",
+    "permalink": "/docs/Calculus/Elementary/Concavity"
+  },
+  "next": {
+    "title": "A Vector Perspective",
+    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Concavity",
+  "id": "Calculus/Elementary/Concavity",
+  "title": "Concavity",
+  "description": "Concavity and the Role of First and Second Order Derivatives",
+  "source": "@site/docs/Calculus/Elementary/Concavity.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Concavity",
+  "permalink": "/docs/Calculus/Elementary/Concavity",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Concavity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "Title": "Concavity and First/Second Order Derivatives",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mean Value Function",
+    "permalink": "/docs/Calculus/Elementary/Mean Value Function"
+  },
+  "next": {
+    "title": "Steps in Backpropagation",
+    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation"
+  }
+}

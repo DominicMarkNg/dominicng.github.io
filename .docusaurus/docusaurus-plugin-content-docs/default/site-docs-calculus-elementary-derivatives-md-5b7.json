@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Derivatives",
+  "id": "Calculus/Elementary/Derivatives",
+  "title": "Derivatives",
+  "description": "",
+  "source": "@site/docs/Calculus/Elementary/Derivatives.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Derivatives",
+  "permalink": "/docs/Calculus/Elementary/Derivatives",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Derivatives.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "Title": "Derivatives",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Secant Line",
+    "permalink": "/docs/Calculus/Elementary/Secant Line"
+  },
+  "next": {
+    "title": "Basic Rules + Proofs",
+    "permalink": "/docs/Calculus/Elementary/Basic Rules + Proofs"
+  }
+}

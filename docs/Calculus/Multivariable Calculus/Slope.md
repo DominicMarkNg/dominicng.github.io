@@ -1,5 +1,5 @@
 ---
-Title: Slope
+title: Slope
 sidebar_position: 5
 ---
 

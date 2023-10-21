@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Multivariable Calculus/Why does the partial derivative point up",
+  "id": "Calculus/Multivariable Calculus/Why does the partial derivative point up",
+  "title": "Why does the partial derivative point up",
+  "description": "An intuitive explanation as to why this might be",
+  "source": "@site/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up.md",
+  "sourceDirName": "Calculus/Multivariable Calculus",
+  "slug": "/Calculus/Multivariable Calculus/Why does the partial derivative point up",
+  "permalink": "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Why does the partial derivative point up",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partial Derivatives Formal",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal"
+  },
+  "next": {
+    "title": "Secant Line",
+    "permalink": "/docs/Calculus/Elementary/Secant Line"
+  }
+}

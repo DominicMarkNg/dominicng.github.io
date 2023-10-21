@@ -11,6 +11,81 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Calculus/Elementary/Basic Rules + Proofs",
+              "path": "/docs/Calculus/Elementary/Basic Rules + Proofs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Concavity",
+              "path": "/docs/Calculus/Elementary/Concavity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Derivatives",
+              "path": "/docs/Calculus/Elementary/Derivatives",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Derivatives of special equations",
+              "path": "/docs/Calculus/Elementary/Derivatives of special equations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/LHopitalsrule",
+              "path": "/docs/Calculus/Elementary/LHopitalsrule",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Mean Value Function",
+              "path": "/docs/Calculus/Elementary/Mean Value Function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+              "path": "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Elementary/Secant Line",
+              "path": "/docs/Calculus/Elementary/Secant Line",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Directional Derivatives",
+              "path": "/docs/Calculus/Multivariable Calculus/Directional Derivatives",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Gradient",
+              "path": "/docs/Calculus/Multivariable Calculus/Gradient",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Partial Derivatives",
+              "path": "/docs/Calculus/Multivariable Calculus/Partial Derivatives",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Partial Derivatives Formal",
+              "path": "/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Second Partial Derivatives",
+              "path": "/docs/Calculus/Multivariable Calculus/Second Partial Derivatives",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Slope",
+              "path": "/docs/Calculus/Multivariable Calculus/Slope",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Calculus/Multivariable Calculus/Why does the partial derivative point up",
+              "path": "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -23,6 +98,36 @@
             {
               "id": "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
               "path": "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Deep Learning Principles/Problems with Depth copy",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Fundamentals/Backpropagation/A Vector Perspective",
+              "path": "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Fundamentals/Backpropagation/Graphs",
+              "path": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+              "path": "/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Fundamentals/Basic Architecture",
+              "path": "/docs/Neural Networks/Fundamentals/Basic Architecture",
               "sidebar": "tutorialSidebar"
             },
             {

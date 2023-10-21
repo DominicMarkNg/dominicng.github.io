@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Multivariable Calculus/Partial Derivatives Formal",
+  "id": "Calculus/Multivariable Calculus/Partial Derivatives Formal",
+  "title": "Partial Derivatives Formal",
+  "description": "The concept of partial derivatives can be beautifully elucidated by considering how a function changes as we vary one of its input variables while keeping others fixed. This idea is especially intuitive in the realm of multivariable functions, where different directions of change give rise to unique behavior in the function's output.",
+  "source": "@site/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal.md",
+  "sourceDirName": "Calculus/Multivariable Calculus",
+  "slug": "/Calculus/Multivariable Calculus/Partial Derivatives Formal",
+  "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "Title": "Partial Derivatives/Slope - Proof",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Slope",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Slope"
+  },
+  "next": {
+    "title": "Why does the partial derivative point up",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up"
+  }
+}

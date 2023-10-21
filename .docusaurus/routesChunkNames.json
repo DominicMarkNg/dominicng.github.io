@@ -143,12 +143,72 @@
     },
     "content": "393be207"
   },
-  "/docs-a55": {
+  "/docs-a11": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
     },
     "versionMetadata": "935f2afb"
+  },
+  "/docs/Calculus/Elementary/Basic Rules + Proofs-e83": {
+    "__comp": "17896441",
+    "content": "acd9b7dd"
+  },
+  "/docs/Calculus/Elementary/Concavity-0e8": {
+    "__comp": "17896441",
+    "content": "e91a5b24"
+  },
+  "/docs/Calculus/Elementary/Derivatives-b0c": {
+    "__comp": "17896441",
+    "content": "5b7588a3"
+  },
+  "/docs/Calculus/Elementary/Derivatives of special equations-695": {
+    "__comp": "17896441",
+    "content": "f59abb50"
+  },
+  "/docs/Calculus/Elementary/LHopitalsrule-551": {
+    "__comp": "17896441",
+    "content": "83d70654"
+  },
+  "/docs/Calculus/Elementary/Mean Value Function-bed": {
+    "__comp": "17896441",
+    "content": "0c18ff33"
+  },
+  "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule-82d": {
+    "__comp": "17896441",
+    "content": "49c2cb68"
+  },
+  "/docs/Calculus/Elementary/Secant Line-ba3": {
+    "__comp": "17896441",
+    "content": "ed5edf02"
+  },
+  "/docs/Calculus/Multivariable Calculus/Directional Derivatives-7bf": {
+    "__comp": "17896441",
+    "content": "77b27606"
+  },
+  "/docs/Calculus/Multivariable Calculus/Gradient-b9e": {
+    "__comp": "17896441",
+    "content": "2e7b68a8"
+  },
+  "/docs/Calculus/Multivariable Calculus/Partial Derivatives-a2f": {
+    "__comp": "17896441",
+    "content": "1cb5b1a9"
+  },
+  "/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal-70b": {
+    "__comp": "17896441",
+    "content": "991cb4da"
+  },
+  "/docs/Calculus/Multivariable Calculus/Second Partial Derivatives-f55": {
+    "__comp": "17896441",
+    "content": "cad71299"
+  },
+  "/docs/Calculus/Multivariable Calculus/Slope-cc8": {
+    "__comp": "17896441",
+    "content": "f27f958a"
+  },
+  "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up-404": {
+    "__comp": "17896441",
+    "content": "78ff195f"
   },
   "/docs/category/probability-36c": {
     "__comp": "14eb3368",
@@ -165,6 +225,30 @@
   "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions-f0a": {
     "__comp": "17896441",
     "content": "1d23dc76"
+  },
+  "/docs/Neural Networks/Deep Learning Principles/Problems with Depth-89d": {
+    "__comp": "17896441",
+    "content": "8c21e089"
+  },
+  "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy-5f2": {
+    "__comp": "17896441",
+    "content": "5c060d15"
+  },
+  "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective-331": {
+    "__comp": "17896441",
+    "content": "8031957b"
+  },
+  "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs-c5f": {
+    "__comp": "17896441",
+    "content": "979ae2af"
+  },
+  "/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation-af8": {
+    "__comp": "17896441",
+    "content": "ba51573c"
+  },
+  "/docs/Neural Networks/Fundamentals/Basic Architecture-8f7": {
+    "__comp": "17896441",
+    "content": "cf38675e"
   },
   "/docs/Probability/Set Theory-6f0": {
     "__comp": "17896441",

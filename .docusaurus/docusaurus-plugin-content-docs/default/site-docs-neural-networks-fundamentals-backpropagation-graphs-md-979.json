@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Neural Networks/Fundamentals/Backpropagation/Graphs",
+  "id": "Neural Networks/Fundamentals/Backpropagation/Graphs",
+  "title": "Graphs",
+  "description": "---",
+  "source": "@site/docs/Neural Networks/Fundamentals/Backpropagation/Graphs.md",
+  "sourceDirName": "Neural Networks/Fundamentals/Backpropagation",
+  "slug": "/Neural Networks/Fundamentals/Backpropagation/Graphs",
+  "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Fundamentals/Backpropagation/Graphs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "A Vector Perspective",
+    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective"
+  },
+  "next": {
+    "title": "Basic Architecture",
+    "permalink": "/docs/Neural Networks/Fundamentals/Basic Architecture"
+  }
+}

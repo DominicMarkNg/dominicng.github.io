@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Mean Value Function",
+  "id": "Calculus/Elementary/Mean Value Function",
+  "title": "Mean Value Function",
+  "description": "Mean Value Theorem (MVT)",
+  "source": "@site/docs/Calculus/Elementary/Mean Value Function.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Mean Value Function",
+  "permalink": "/docs/Calculus/Elementary/Mean Value Function",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Mean Value Function.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "Title": "Mean Value Function",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LHopitalsrule",
+    "permalink": "/docs/Calculus/Elementary/LHopitalsrule"
+  },
+  "next": {
+    "title": "Concavity",
+    "permalink": "/docs/Calculus/Elementary/Concavity"
+  }
+}

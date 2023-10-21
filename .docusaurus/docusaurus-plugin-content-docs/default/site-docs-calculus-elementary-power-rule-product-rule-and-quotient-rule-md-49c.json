@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+  "id": "Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+  "title": "Power Rule, Product Rule, and Quotient Rule",
+  "description": "Power Rule Using the Binomial Theorem",
+  "source": "@site/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+  "permalink": "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "Title": "Power Rule, Product Rule, and Quotient Rule",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Derivatives of special equations",
+    "permalink": "/docs/Calculus/Elementary/Derivatives of special equations"
+  },
+  "next": {
+    "title": "LHopitalsrule",
+    "permalink": "/docs/Calculus/Elementary/LHopitalsrule"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Multivariable Calculus/Second Partial Derivatives",
+  "id": "Calculus/Multivariable Calculus/Second Partial Derivatives",
+  "title": "Second Partial Derivatives",
+  "description": "Second Partial Derivatives",
+  "source": "@site/docs/Calculus/Multivariable Calculus/Second Partial Derivatives.md",
+  "sourceDirName": "Calculus/Multivariable Calculus",
+  "slug": "/Calculus/Multivariable Calculus/Second Partial Derivatives",
+  "permalink": "/docs/Calculus/Multivariable Calculus/Second Partial Derivatives",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Multivariable Calculus/Second Partial Derivatives.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "Title": "Second Partial Derivatives",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gradient",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Gradient"
+  },
+  "next": {
+    "title": "Directional Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Directional Derivatives"
+  }
+}

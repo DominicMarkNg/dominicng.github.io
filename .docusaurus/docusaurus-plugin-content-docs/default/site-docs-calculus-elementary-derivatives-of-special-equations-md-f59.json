@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Derivatives of special equations",
+  "id": "Calculus/Elementary/Derivatives of special equations",
+  "title": "Derivatives of special equations",
+  "description": "Proof for the Derivative of $\\sin(x)$ Being $\\cos(x)$",
+  "source": "@site/docs/Calculus/Elementary/Derivatives of special equations.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Derivatives of special equations",
+  "permalink": "/docs/Calculus/Elementary/Derivatives of special equations",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Derivatives of special equations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "Title": "Derivatives of special equations",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Rules + Proofs",
+    "permalink": "/docs/Calculus/Elementary/Basic Rules + Proofs"
+  },
+  "next": {
+    "title": "Power Rule, Product Rule, and Quotient Rule",
+    "permalink": "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule"
+  }
+}

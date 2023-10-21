@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Fundamentals/Basic Architecture",
+  "id": "Neural Networks/Fundamentals/Basic Architecture",
+  "title": "Basic Architecture",
+  "description": "",
+  "source": "@site/docs/Neural Networks/Fundamentals/Basic Architecture.md",
+  "sourceDirName": "Neural Networks/Fundamentals",
+  "slug": "/Neural Networks/Fundamentals/Basic Architecture",
+  "permalink": "/docs/Neural Networks/Fundamentals/Basic Architecture",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Fundamentals/Basic Architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "Neural Network Architecture",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Graphs",
+    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs"
+  },
+  "next": {
+    "title": "Problems with Depth",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth"
+  }
+}

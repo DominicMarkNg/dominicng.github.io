@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Multivariable Calculus/Slope",
+  "id": "Calculus/Multivariable Calculus/Slope",
+  "title": "Slope",
+  "description": "Slope and the Directional Derivative",
+  "source": "@site/docs/Calculus/Multivariable Calculus/Slope.md",
+  "sourceDirName": "Calculus/Multivariable Calculus",
+  "slug": "/Calculus/Multivariable Calculus/Slope",
+  "permalink": "/docs/Calculus/Multivariable Calculus/Slope",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Multivariable Calculus/Slope.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Slope",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Directional Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Directional Derivatives"
+  },
+  "next": {
+    "title": "Partial Derivatives Formal",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal"
+  }
+}

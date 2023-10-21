@@ -64,8 +64,98 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a55'),
+    component: ComponentCreator('/docs', 'a11'),
     routes: [
+      {
+        path: '/docs/Calculus/Elementary/Basic Rules + Proofs',
+        component: ComponentCreator('/docs/Calculus/Elementary/Basic Rules + Proofs', 'e83'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Concavity',
+        component: ComponentCreator('/docs/Calculus/Elementary/Concavity', '0e8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Derivatives',
+        component: ComponentCreator('/docs/Calculus/Elementary/Derivatives', 'b0c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Derivatives of special equations',
+        component: ComponentCreator('/docs/Calculus/Elementary/Derivatives of special equations', '695'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/LHopitalsrule',
+        component: ComponentCreator('/docs/Calculus/Elementary/LHopitalsrule', '551'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Mean Value Function',
+        component: ComponentCreator('/docs/Calculus/Elementary/Mean Value Function', 'bed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule',
+        component: ComponentCreator('/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule', '82d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Elementary/Secant Line',
+        component: ComponentCreator('/docs/Calculus/Elementary/Secant Line', 'ba3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Directional Derivatives',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Directional Derivatives', '7bf'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Gradient',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Gradient', 'b9e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Partial Derivatives',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Partial Derivatives', 'a2f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Partial Derivatives Formal', '70b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Second Partial Derivatives',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Second Partial Derivatives', 'f55'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Slope',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Slope', 'cc8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up',
+        component: ComponentCreator('/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up', '404'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/probability',
         component: ComponentCreator('/docs/category/probability', '36c'),
@@ -87,6 +177,42 @@ export default [
       {
         path: '/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions',
         component: ComponentCreator('/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions', 'f0a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth', '89d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy', '5f2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective', '331'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Fundamentals/Backpropagation/Graphs',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Backpropagation/Graphs', 'c5f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation', 'af8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Fundamentals/Basic Architecture',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Basic Architecture', '8f7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

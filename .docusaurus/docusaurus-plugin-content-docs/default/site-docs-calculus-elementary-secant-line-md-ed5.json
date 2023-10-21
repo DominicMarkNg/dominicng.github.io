@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Secant Line",
+  "id": "Calculus/Elementary/Secant Line",
+  "title": "Secant Line",
+  "description": "",
+  "source": "@site/docs/Calculus/Elementary/Secant Line.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Secant Line",
+  "permalink": "/docs/Calculus/Elementary/Secant Line",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Secant Line.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "Secant Line",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why does the partial derivative point up",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up"
+  },
+  "next": {
+    "title": "Derivatives",
+    "permalink": "/docs/Calculus/Elementary/Derivatives"
+  }
+}
