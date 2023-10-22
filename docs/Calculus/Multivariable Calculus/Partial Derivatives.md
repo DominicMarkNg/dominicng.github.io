@@ -29,7 +29,7 @@ For functions \( f: \mathbb{R}^n \rightarrow \mathbb{R}^m \) where \( m > 1 \), 
 \end{pmatrix}
 \]
 
-### Potential Figure
+### Figures to add later...
 
 A potential figure illustrating partial derivatives could involve a 3D plot of a function \( f(x, y) \). The figure could show tangent planes corresponding to the partial derivatives \( \frac{\partial f}{\partial x} \) and \( \frac{\partial f}{\partial y} \) at a specific point. These planes would illustrate how the function changes when you vary only one variable while keeping the other constant.
 

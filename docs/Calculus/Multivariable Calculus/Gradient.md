@@ -23,6 +23,6 @@ For a function $ f(x, y) $, the gradient $ \nabla f(x, y) $ would be a 2D vector
 
 In the context of a vector map, each point $ (x, y) $ on the Cartesian coordinate system would map to a vector pointing in the direction of $ \nabla f(x, y) $. If you were to draw these vectors as arrows originating from their corresponding $ (x,y) $ points, you would get a "vector field" that visually represents the gradient across the domain.
 
-### Potential Figure
+### Figures to add later...
 
 A figure illustrating this concept could be a 2D contour plot of $ f(x, y) $ overlaid with arrows representing $ \nabla f(x, y) $ at various points $ (x, y) $. Each arrow would point in the direction of the steepest ascent of $ f $ at its originating point. The length of the arrow would be proportional to the magnitude of $ \nabla f(x, y) $, providing a visual cue for the rate of change at each point.

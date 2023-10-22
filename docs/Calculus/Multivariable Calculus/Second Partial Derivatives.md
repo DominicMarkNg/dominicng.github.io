@@ -51,6 +51,6 @@ Mixed partial derivatives provide valuable insights into the nature of a functio
 
 The mixed partial derivatives tell us how the function's curvature changes as we move between the $ x $ and $ y $ axes. If the mixed partial derivative is positive, the function's curvature is similar in both the $ x $ and $ y $ directions. If negative, the curvature in the $ x $ direction opposes that in the $ y $ direction.
 
-### Potential Figure
+### Figures to add later...
 
 A visual representation could depict the surface of a function $ f(x,y) $. Highlighting the curvatures corresponding to $ \frac{\partial^2 f}{\partial x^2} $, $ \frac{\partial^2 f}{\partial y^2} $, $ \frac{\partial^2 f}{\partial x \partial y} $, and $ \frac{\partial^2 f}{\partial y \partial x} $ will help to visually distinguish between second and mixed partial derivatives. This will showcase the curvature of the function in relation to the $ x $ and $ y $ axes, and how the function behaves in between these axes.

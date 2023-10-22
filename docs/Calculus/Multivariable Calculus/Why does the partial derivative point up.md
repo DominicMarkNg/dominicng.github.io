@@ -91,4 +91,6 @@ The above inequality shows that no matter what unit vector $ \hat{u} $ we pick, 
 
 This means that no matter what direction you pick, the rate of change of $ f $ in that direction will be smaller or equal to the rate of change in the direction of $ \nabla f $.
 
+Figures to add later...
+
 In summary, $ \nabla f $ points in the direction of maximum change in $ f $, and the triangle inequality helps us to mathematically verify this. A figure showing a 3D plot of $ f(x, y) $ with vectors $ \nabla f $ at various points would be useful to visually corroborate this concept. The vectors would be pointing in the directions where the function decreases most rapidly, affirming that $ \nabla f $ points toward the "lowest" point for our example function.
