@@ -3,3 +3,4 @@ node_modules/.cache/webpack/client-production-en/0.pack
 node_modules/.cache/webpack/client-production-en/0.pack
 *.pack
 *.pack
+node_modules/.cache/webpack/server-production-en/0.pack

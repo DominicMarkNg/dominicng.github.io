@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Basic Architecture",
-    "permalink": "/docs/Neural Networks/Fundamentals/Basic Architecture"
+    "title": "Neural Networks",
+    "permalink": "/docs/Neural Networks/Fundamentals/Neural Networks"
   },
   "next": {
-    "title": "Problems with Depth copy",
-    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy"
+    "title": "Activation Functions",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Activation Functions"
   }
 }

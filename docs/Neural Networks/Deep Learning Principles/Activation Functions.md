@@ -2,6 +2,8 @@
 Title: Activation Functions
 sidebar_position: 2
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Choice of Activation Functions in Neural Networks: A Mathematical Perspective
 

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Probability/Combinatorics/Pigeonhole Principle",
+  "id": "Probability/Combinatorics/Pigeonhole Principle",
+  "title": "Pigeonhole Principle",
+  "description": "---",
+  "source": "@site/docs/Probability/Combinatorics/Pigeonhole Principle.md",
+  "sourceDirName": "Probability/Combinatorics",
+  "slug": "/Probability/Combinatorics/Pigeonhole Principle",
+  "permalink": "/docs/Probability/Combinatorics/Pigeonhole Principle",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Probability/Combinatorics/Pigeonhole Principle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Graph Theory Basics",
+    "permalink": "/docs/Probability/Combinatorics/Graph Theory Basics"
+  },
+  "next": {
+    "title": "Introduction to Set Theory Notation",
+    "permalink": "/docs/Probability/Set Theory"
+  }
+}

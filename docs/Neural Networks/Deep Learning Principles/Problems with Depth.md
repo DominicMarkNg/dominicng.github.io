@@ -2,6 +2,8 @@
 Title: Depth and the problems it comes with
 sidebar_position: 1
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## The Impact of Gradient Ratios in Deep Learning
 

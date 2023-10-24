@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Fundamentals/Neural Networks",
+  "id": "Neural Networks/Fundamentals/Neural Networks",
+  "title": "Neural Networks",
+  "description": "Welcome to Chapter 3: \"Foundations of Shallow Neural Networks and Their Applications.\" In this chapter, we will embark on a journey through the fundamental concepts and practical applications of shallow neural networks, providing you with a solid foundation in machine learning.",
+  "source": "@site/docs/Neural Networks/Fundamentals/Neural Networks.md",
+  "sourceDirName": "Neural Networks/Fundamentals",
+  "slug": "/Neural Networks/Fundamentals/Neural Networks",
+  "permalink": "/docs/Neural Networks/Fundamentals/Neural Networks",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Fundamentals/Neural Networks.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "Title": "Neural Network Architecture",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Basic Architecture",
+    "permalink": "/docs/Neural Networks/Fundamentals/Basic Architecture"
+  },
+  "next": {
+    "title": "Problems with Depth",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth"
+  }
+}

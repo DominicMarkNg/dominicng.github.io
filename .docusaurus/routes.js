@@ -69,7 +69,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a11'),
+    component: ComponentCreator('/docs', 'f0a'),
     routes: [
       {
         path: '/docs/Calculus/Elementary/Basic Rules + Proofs',
@@ -162,14 +162,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/probability',
-        component: ComponentCreator('/docs/category/probability', '36c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/docs/Intro',
+        component: ComponentCreator('/docs/Intro', '1f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -186,14 +180,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth',
-        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth', '89d'),
+        path: '/docs/Neural Networks/Deep Learning Principles/Activation Functions',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Activation Functions', '5e5'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy',
-        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy', '5f2'),
+        path: '/docs/Neural Networks/Deep Learning Principles/Dying Neurons',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Dying Neurons', 'ad8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges', '3ff'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth', '89d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -218,6 +224,36 @@ export default [
       {
         path: '/docs/Neural Networks/Fundamentals/Basic Architecture',
         component: ComponentCreator('/docs/Neural Networks/Fundamentals/Basic Architecture', '8f7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Fundamentals/Neural Networks',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Neural Networks', 'cfa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Probability/Combinatorics/Graph Theory Basics',
+        component: ComponentCreator('/docs/Probability/Combinatorics/Graph Theory Basics', '10f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Probability/Combinatorics/Permutations and Combinations',
+        component: ComponentCreator('/docs/Probability/Combinatorics/Permutations and Combinations', '282'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Probability/Combinatorics/Pigeonhole Principle',
+        component: ComponentCreator('/docs/Probability/Combinatorics/Pigeonhole Principle', '398'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Probability/Discrete Random Variables',
+        component: ComponentCreator('/docs/Probability/Discrete Random Variables', '31f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -149,7 +149,7 @@
       "plugin": "5478dce0"
     }
   },
-  "/docs-a11": {
+  "/docs-f0a": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
@@ -216,13 +216,9 @@
     "__comp": "17896441",
     "content": "78ff195f"
   },
-  "/docs/category/probability-36c": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "37804ff6"
-  },
-  "/docs/intro-aed": {
+  "/docs/Intro-1f0": {
     "__comp": "17896441",
-    "content": "0e384e19"
+    "content": "377ca38f"
   },
   "/docs/Linear Algebra/Intro-0f4": {
     "__comp": "17896441",
@@ -232,13 +228,21 @@
     "__comp": "17896441",
     "content": "1d23dc76"
   },
+  "/docs/Neural Networks/Deep Learning Principles/Activation Functions-5e5": {
+    "__comp": "17896441",
+    "content": "4cb9ef4a"
+  },
+  "/docs/Neural Networks/Deep Learning Principles/Dying Neurons-ad8": {
+    "__comp": "17896441",
+    "content": "64e31f59"
+  },
+  "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges-3ff": {
+    "__comp": "17896441",
+    "content": "584a3569"
+  },
   "/docs/Neural Networks/Deep Learning Principles/Problems with Depth-89d": {
     "__comp": "17896441",
     "content": "8c21e089"
-  },
-  "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy-5f2": {
-    "__comp": "17896441",
-    "content": "5c060d15"
   },
   "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective-331": {
     "__comp": "17896441",
@@ -255,6 +259,26 @@
   "/docs/Neural Networks/Fundamentals/Basic Architecture-8f7": {
     "__comp": "17896441",
     "content": "cf38675e"
+  },
+  "/docs/Neural Networks/Fundamentals/Neural Networks-cfa": {
+    "__comp": "17896441",
+    "content": "86427ddc"
+  },
+  "/docs/Probability/Combinatorics/Graph Theory Basics-10f": {
+    "__comp": "17896441",
+    "content": "e9f1e9c7"
+  },
+  "/docs/Probability/Combinatorics/Permutations and Combinations-282": {
+    "__comp": "17896441",
+    "content": "14b5e8d7"
+  },
+  "/docs/Probability/Combinatorics/Pigeonhole Principle-398": {
+    "__comp": "17896441",
+    "content": "66d8e5d9"
+  },
+  "/docs/Probability/Discrete Random Variables-31f": {
+    "__comp": "17896441",
+    "content": "0eba27a8"
   },
   "/docs/Probability/Set Theory-6f0": {
     "__comp": "17896441",

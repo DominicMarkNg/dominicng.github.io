@@ -11,9 +11,9 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "intro",
-        "href": "/docs/intro",
-        "docId": "intro"
+        "label": "Intro",
+        "href": "/docs/Intro",
+        "docId": "Intro"
       },
       {
         "type": "category",
@@ -22,13 +22,44 @@
         "collapsed": true,
         "items": [
           {
+            "type": "category",
+            "label": "Combinatorics",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Permutations and Combinations",
+                "href": "/docs/Probability/Combinatorics/Permutations and Combinations",
+                "docId": "Probability/Combinatorics/Permutations and Combinations"
+              },
+              {
+                "type": "link",
+                "label": "Graph Theory Basics",
+                "href": "/docs/Probability/Combinatorics/Graph Theory Basics",
+                "docId": "Probability/Combinatorics/Graph Theory Basics"
+              },
+              {
+                "type": "link",
+                "label": "Pigeonhole Principle",
+                "href": "/docs/Probability/Combinatorics/Pigeonhole Principle",
+                "docId": "Probability/Combinatorics/Pigeonhole Principle"
+              }
+            ]
+          },
+          {
             "type": "link",
             "label": "Introduction to Set Theory Notation",
             "href": "/docs/Probability/Set Theory",
             "docId": "Probability/Set Theory"
+          },
+          {
+            "type": "link",
+            "label": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
+            "href": "/docs/Probability/Discrete Random Variables",
+            "docId": "Probability/Discrete Random Variables"
           }
-        ],
-        "href": "/docs/category/probability"
+        ]
       },
       {
         "type": "category",
@@ -187,6 +218,12 @@
                 "label": "Basic Architecture",
                 "href": "/docs/Neural Networks/Fundamentals/Basic Architecture",
                 "docId": "Neural Networks/Fundamentals/Basic Architecture"
+              },
+              {
+                "type": "link",
+                "label": "Neural Networks",
+                "href": "/docs/Neural Networks/Fundamentals/Neural Networks",
+                "docId": "Neural Networks/Fundamentals/Neural Networks"
               }
             ]
           },
@@ -204,9 +241,21 @@
               },
               {
                 "type": "link",
-                "label": "Problems with Depth copy",
-                "href": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy",
-                "docId": "Neural Networks/Deep Learning Principles/Problems with Depth copy"
+                "label": "Activation Functions",
+                "href": "/docs/Neural Networks/Deep Learning Principles/Activation Functions",
+                "docId": "Neural Networks/Deep Learning Principles/Activation Functions"
+              },
+              {
+                "type": "link",
+                "label": "Dying Neurons",
+                "href": "/docs/Neural Networks/Deep Learning Principles/Dying Neurons",
+                "docId": "Neural Networks/Deep Learning Principles/Dying Neurons"
+              },
+              {
+                "type": "link",
+                "label": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+                "href": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+                "docId": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges"
               }
             ]
           }
@@ -325,9 +374,9 @@
       "description": "An intuitive explanation as to why this might be",
       "sidebar": "tutorialSidebar"
     },
-    "intro": {
-      "id": "intro",
-      "title": "intro",
+    "Intro": {
+      "id": "Intro",
+      "title": "Intro",
       "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
       "sidebar": "tutorialSidebar"
     },
@@ -343,16 +392,28 @@
       "description": "Matrix Multiplication as Linear Combination of Columns",
       "sidebar": "tutorialSidebar"
     },
+    "Neural Networks/Deep Learning Principles/Activation Functions": {
+      "id": "Neural Networks/Deep Learning Principles/Activation Functions",
+      "title": "Activation Functions",
+      "description": "Choice of Activation Functions in Neural Networks: A Mathematical Perspective",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Deep Learning Principles/Dying Neurons": {
+      "id": "Neural Networks/Deep Learning Principles/Dying Neurons",
+      "title": "Dying Neurons",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges": {
+      "id": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+      "title": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+      "description": "Optimizing Deep Networks A Toolkit for Tackling Gradient Challenges",
+      "sidebar": "tutorialSidebar"
+    },
     "Neural Networks/Deep Learning Principles/Problems with Depth": {
       "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
       "title": "Problems with Depth",
       "description": "The Impact of Gradient Ratios in Deep Learning",
-      "sidebar": "tutorialSidebar"
-    },
-    "Neural Networks/Deep Learning Principles/Problems with Depth copy": {
-      "id": "Neural Networks/Deep Learning Principles/Problems with Depth copy",
-      "title": "Problems with Depth copy",
-      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Fundamentals/Backpropagation/A Vector Perspective": {
@@ -377,6 +438,36 @@
       "id": "Neural Networks/Fundamentals/Basic Architecture",
       "title": "Basic Architecture",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Fundamentals/Neural Networks": {
+      "id": "Neural Networks/Fundamentals/Neural Networks",
+      "title": "Neural Networks",
+      "description": "Welcome to Chapter 3: \"Foundations of Shallow Neural Networks and Their Applications.\" In this chapter, we will embark on a journey through the fundamental concepts and practical applications of shallow neural networks, providing you with a solid foundation in machine learning.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Probability/Combinatorics/Graph Theory Basics": {
+      "id": "Probability/Combinatorics/Graph Theory Basics",
+      "title": "Graph Theory Basics",
+      "description": "Graphs: The Super Easy Guide",
+      "sidebar": "tutorialSidebar"
+    },
+    "Probability/Combinatorics/Permutations and Combinations": {
+      "id": "Probability/Combinatorics/Permutations and Combinations",
+      "title": "Permutations and Combinations",
+      "description": "Notation for Permutations and Combinations",
+      "sidebar": "tutorialSidebar"
+    },
+    "Probability/Combinatorics/Pigeonhole Principle": {
+      "id": "Probability/Combinatorics/Pigeonhole Principle",
+      "title": "Pigeonhole Principle",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
+    "Probability/Discrete Random Variables": {
+      "id": "Probability/Discrete Random Variables",
+      "title": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
+      "description": "In probability theory and statistics, the concept of a random variable serves as a mathematical abstraction to quantify randomness. While random variables can be either continuous or discrete, this section specifically focuses on discrete random variables, breaking down their mathematical formulation, characteristics, and applications.",
       "sidebar": "tutorialSidebar"
     },
     "Probability/Set Theory": {

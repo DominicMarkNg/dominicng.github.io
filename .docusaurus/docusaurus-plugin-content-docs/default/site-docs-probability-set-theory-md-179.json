@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Probability",
-    "permalink": "/docs/category/probability"
+    "title": "Pigeonhole Principle",
+    "permalink": "/docs/Probability/Combinatorics/Pigeonhole Principle"
   },
   "next": {
-    "title": "Partial Derivatives",
-    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives"
+    "title": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
+    "permalink": "/docs/Probability/Discrete Random Variables"
   }
 }

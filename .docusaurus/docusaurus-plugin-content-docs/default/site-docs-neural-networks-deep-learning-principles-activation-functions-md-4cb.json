@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Deep Learning Principles/Activation Functions",
+  "id": "Neural Networks/Deep Learning Principles/Activation Functions",
+  "title": "Activation Functions",
+  "description": "Choice of Activation Functions in Neural Networks: A Mathematical Perspective",
+  "source": "@site/docs/Neural Networks/Deep Learning Principles/Activation Functions.md",
+  "sourceDirName": "Neural Networks/Deep Learning Principles",
+  "slug": "/Neural Networks/Deep Learning Principles/Activation Functions",
+  "permalink": "/docs/Neural Networks/Deep Learning Principles/Activation Functions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Deep Learning Principles/Activation Functions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "Title": "Activation Functions",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Problems with Depth",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth"
+  },
+  "next": {
+    "title": "Dying Neurons",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Dying Neurons"
+  }
+}

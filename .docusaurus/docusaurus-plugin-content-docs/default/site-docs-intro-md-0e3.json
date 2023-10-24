@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Probability",
-    "permalink": "/docs/category/probability"
+    "title": "Permutations and Combinations",
+    "permalink": "/docs/Probability/Combinatorics/Permutations and Combinations"
   }
 }

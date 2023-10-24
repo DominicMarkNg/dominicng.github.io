@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Probability/Discrete Random Variables",
+  "id": "Probability/Discrete Random Variables",
+  "title": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
+  "description": "In probability theory and statistics, the concept of a random variable serves as a mathematical abstraction to quantify randomness. While random variables can be either continuous or discrete, this section specifically focuses on discrete random variables, breaking down their mathematical formulation, characteristics, and applications.",
+  "source": "@site/docs/Probability/Discrete Random Variables.md",
+  "sourceDirName": "Probability",
+  "slug": "/Probability/Discrete Random Variables",
+  "permalink": "/docs/Probability/Discrete Random Variables",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Probability/Discrete Random Variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "Title": "Discrete Random Variables",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Set Theory Notation",
+    "permalink": "/docs/Probability/Set Theory"
+  },
+  "next": {
+    "title": "Partial Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives"
+  }
+}

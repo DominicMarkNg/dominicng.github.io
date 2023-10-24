@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Intro",
           "docs": [
             {
               "id": "Calculus/Elementary/Basic Rules + Proofs",
@@ -86,8 +86,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "Intro",
+              "path": "/docs/Intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -101,13 +101,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
-              "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth",
+              "id": "Neural Networks/Deep Learning Principles/Activation Functions",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Activation Functions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Neural Networks/Deep Learning Principles/Problems with Depth copy",
-              "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy",
+              "id": "Neural Networks/Deep Learning Principles/Dying Neurons",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Dying Neurons",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -131,13 +141,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Probability/Set Theory",
-              "path": "/docs/Probability/Set Theory",
+              "id": "Neural Networks/Fundamentals/Neural Networks",
+              "path": "/docs/Neural Networks/Fundamentals/Neural Networks",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/probability",
-              "path": "/docs/category/probability",
+              "id": "Probability/Combinatorics/Graph Theory Basics",
+              "path": "/docs/Probability/Combinatorics/Graph Theory Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Probability/Combinatorics/Permutations and Combinations",
+              "path": "/docs/Probability/Combinatorics/Permutations and Combinations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Probability/Combinatorics/Pigeonhole Principle",
+              "path": "/docs/Probability/Combinatorics/Pigeonhole Principle",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Probability/Discrete Random Variables",
+              "path": "/docs/Probability/Discrete Random Variables",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Probability/Set Theory",
+              "path": "/docs/Probability/Set Theory",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -145,8 +175,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/Intro",
+                "label": "Intro"
               }
             }
           }

@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Problems with Depth copy",
-    "permalink": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth copy"
+    "title": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+    "permalink": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges"
   },
   "next": {
     "title": "Matrix Operations, Special Matrices, and Matrix Decompositions",
