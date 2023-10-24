@@ -25,10 +25,12 @@ def hello_world():
 </TabItem>
 <TabItem value="julia" label="Julia">
 
-```java
+```julia
+// highlight-start
 function helloWorld()
     println("Hello, world!")
 end
+// highlight-end
 ```
 
 </TabItem>
