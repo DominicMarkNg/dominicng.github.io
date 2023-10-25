@@ -101,6 +101,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Neural Networks/Attention and Transformers/Introduction",
+              "path": "/docs/Neural Networks/Attention and Transformers/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Convolutional Neural Networks/Introduction",
+              "path": "/docs/Neural Networks/Convolutional Neural Networks/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Neural Networks/Deep Learning Principles/Activation Functions",
               "path": "/docs/Neural Networks/Deep Learning Principles/Activation Functions",
               "sidebar": "tutorialSidebar"
@@ -118,6 +128,11 @@
             {
               "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
               "path": "/docs/Neural Networks/Deep Learning Principles/Problems with Depth",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Deep Reinforcement Learning/Introduction",
+              "path": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -143,6 +158,26 @@
             {
               "id": "Neural Networks/Fundamentals/Neural Networks",
               "path": "/docs/Neural Networks/Fundamentals/Neural Networks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Graph Neural Networks/Introduction",
+              "path": "/docs/Neural Networks/Graph Neural Networks/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Radial Basis Function Networks/Introduction",
+              "path": "/docs/Neural Networks/Radial Basis Function Networks/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Recurrent Neural Networks/Introduction",
+              "path": "/docs/Neural Networks/Recurrent Neural Networks/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Neural Networks/Restricted Boltzmann Machine/Introduction",
+              "path": "/docs/Neural Networks/Restricted Boltzmann Machine/Introduction",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -176,7 +211,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/docs/Intro",
-                "label": "Intro"
+                "label": "Introduction"
               }
             }
           }

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Recurrent Neural Networks/Introduction",
+  "id": "Neural Networks/Recurrent Neural Networks/Introduction",
+  "title": "Unveiling the Dynamics of Recurrent Neural Networks",
+  "description": "Recurrent Neural Networks (RNNs) embody a vibrant segment of neural networks specialized in handling sequential data. Unlike conventional feedforward networks, RNNs possess a memory-like mechanism allowing them to maintain a form of state information across sequences. This unique characteristic makes them a natural choice for tasks involving time-series data, text, and other sequential or temporal data.",
+  "source": "@site/docs/Neural Networks/Recurrent Neural Networks/Introduction.md",
+  "sourceDirName": "Neural Networks/Recurrent Neural Networks",
+  "slug": "/Neural Networks/Recurrent Neural Networks/Introduction",
+  "permalink": "/docs/Neural Networks/Recurrent Neural Networks/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Recurrent Neural Networks/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Unveiling the Dynamics of Recurrent Neural Networks",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/Neural Networks/Restricted Boltzmann Machine/Introduction"
+  },
+  "next": {
+    "title": "Unveiling the Power of Convolutional Neural Networks",
+    "permalink": "/docs/Neural Networks/Convolutional Neural Networks/Introduction"
+  }
+}

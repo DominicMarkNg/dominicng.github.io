@@ -5,8 +5,7 @@ sidebar_position: 4
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-##Optimizing Deep Networks A Toolkit for Tackling Gradient Challenges
-
+---
 ### The Role of Preprocessing and Initialization in Deep Learning Optimization
 
 In the context of deep learning, preprocessing and initialization are pivotal for ensuring efficient and stable optimization. Below is an explanation highlighting the theoretical and practical aspects of each.
@@ -81,7 +80,7 @@ Here is an example of how one might implement this in Julia or Pytorch using the
 <Tabs>
 <TabItem value="py" label="Python">
 
-```py
+```py {17-18}
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -98,10 +97,8 @@ class SimpleModel(nn.Module):
 # Initialize model, loss, and optimizer
 model = SimpleModel()
 criterion = nn.MSELoss()
-// highlight-start
 optimizer = optim.SGD(model.parameters(),
 lr=0.01, momentum=0.9)
-// highlight-end
 # Sample data
 input_data = torch.randn(5, 10)
 target_data = torch.randn(5, 1)
@@ -185,7 +182,7 @@ Here's a sample code snippet showing how to implement Nesterov Momentum in PyTor
 <Tabs>
 <TabItem value="py" label="Python">
 
-```py
+```py {11}
 import torch
 import torch.optim as optim
 
@@ -196,9 +193,7 @@ model = torch.nn.Linear(10, 1)
 loss_function = torch.nn.MSELoss()
 
 # Optimizer with Nesterov Momentum
-// highlight-start
 optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9, nesterov=True)
-// highlight-end
 # Dummy data
 input_data = torch.randn(5, 10)
 target_data = torch.randn(5, 1)
@@ -282,7 +277,7 @@ Implementing AdaGrad in PyTorch is straightforward because it's included in the 
 <Tabs>
 <TabItem value="py" label="Python">
 
-```py
+```py {12}
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -294,9 +289,7 @@ model = nn.Linear(10, 1)
 criterion = nn.MSELoss()
 
 # Optimizer
-// highlight-start
 optimizer = optim.Adagrad(model.parameters(), lr=0.01, lr_decay=0, weight_decay=0, initial_accumulator_value=0, eps=1e-8)
-// highlight-end
 
 # Sample data
 input_data = torch.rand(5, 10)
@@ -406,17 +399,15 @@ RMSProp has the potential to incorporate momentum-based methods within its frame
 <Tabs>
 <TabItem value="py" label="Python">
 
-```py
+```py {8}
 import torch
 import torch.optim as optim
 
 # Initialize model parameters
 params = torch.tensor([1.0, 2.0], requires_grad=True)
 
-// highlight-start
 # Initialize RMSProp optimizer
 optimizer = optim.RMSprop([params], lr=0.01, alpha=0.99, eps=1e-8, weight_decay=0, momentum=0, centered=False)
-// highlight-end
 
 # Define the loss function
 def loss_fn(params):
@@ -441,9 +432,9 @@ using Flux
 # Initialize model parameters
 params = params([1.0, 2.0])
 
-// highlight-start
 # Initialize RMSProp optimizer
-opt = Flux.Optimise.RMSProp(0.01, 0.99, 1e-8
+// highlight-start
+opt = Flux.Optimise.RMSProp(0.01, 0.99, 1e-8)
 // highlight-end
 
 # Loss function

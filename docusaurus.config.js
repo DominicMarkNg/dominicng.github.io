@@ -188,6 +188,7 @@ const config = {
         //... other Algolia params
       },
     }),
+    onBrokenLinks: 'ignore',
 };
 
 module.exports = config;

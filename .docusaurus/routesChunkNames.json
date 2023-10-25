@@ -149,7 +149,7 @@
       "plugin": "5478dce0"
     }
   },
-  "/docs-f0a": {
+  "/docs-fdf": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
@@ -228,6 +228,14 @@
     "__comp": "17896441",
     "content": "1d23dc76"
   },
+  "/docs/Neural Networks/Attention and Transformers/Introduction-f60": {
+    "__comp": "17896441",
+    "content": "d34e1a0e"
+  },
+  "/docs/Neural Networks/Convolutional Neural Networks/Introduction-1ea": {
+    "__comp": "17896441",
+    "content": "a6e6069c"
+  },
   "/docs/Neural Networks/Deep Learning Principles/Activation Functions-5e5": {
     "__comp": "17896441",
     "content": "4cb9ef4a"
@@ -243,6 +251,10 @@
   "/docs/Neural Networks/Deep Learning Principles/Problems with Depth-89d": {
     "__comp": "17896441",
     "content": "8c21e089"
+  },
+  "/docs/Neural Networks/Deep Reinforcement Learning/Introduction-15b": {
+    "__comp": "17896441",
+    "content": "ce9a41be"
   },
   "/docs/Neural Networks/Fundamentals/Backpropagation/A Vector Perspective-331": {
     "__comp": "17896441",
@@ -263,6 +275,22 @@
   "/docs/Neural Networks/Fundamentals/Neural Networks-cfa": {
     "__comp": "17896441",
     "content": "86427ddc"
+  },
+  "/docs/Neural Networks/Graph Neural Networks/Introduction-acc": {
+    "__comp": "17896441",
+    "content": "f87a21c1"
+  },
+  "/docs/Neural Networks/Radial Basis Function Networks/Introduction-cac": {
+    "__comp": "17896441",
+    "content": "4f768af3"
+  },
+  "/docs/Neural Networks/Recurrent Neural Networks/Introduction-02f": {
+    "__comp": "17896441",
+    "content": "2df7213f"
+  },
+  "/docs/Neural Networks/Restricted Boltzmann Machine/Introduction-1e6": {
+    "__comp": "17896441",
+    "content": "91ce6208"
   },
   "/docs/Probability/Combinatorics/Graph Theory Basics-10f": {
     "__comp": "17896441",

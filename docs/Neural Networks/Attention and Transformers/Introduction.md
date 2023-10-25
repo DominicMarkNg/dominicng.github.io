@@ -1,6 +1,6 @@
 ---
 
-title: Harnessing Attention: A Paradigm Shift in Neural Networks
+title: Harnessing Attention A Paradigm Shift in Neural Networks
 sidebar_position: 1
 
 ---

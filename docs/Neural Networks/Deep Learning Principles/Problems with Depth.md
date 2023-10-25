@@ -30,9 +30,15 @@ Deep neural networks, comprised of numerous parameters, often encounter imbalanc
 Consider a deep network with a singular node at each layer and $(m+1)$ layers in total, including a non-computational input layer. The weights linking these layers are represented as $w_1, w_2, \ldots, w_m$. For our discussion, we'll assume the usage of a sigmoid activation function, denoted by $\Phi(\cdot)$. Given input $x$, hidden activations $h_1, \ldots, h_{m-1}$, and final output $o$, the architecture is visually represented in **INSERT FIGURE**.
 
 From the architecture, the output of each hidden layer is established by:
-$$ h_{t+1} = \Phi(w_{t+1}h_t) $$
+
+$$ 
+h_{t+1} = \Phi(w_{t+1}h_t) 
+$$
+
 Using backpropagation, we derive:
-$$ \frac{\partial L}{\partial h_t} = \Phi'(w_{t+1}h_t) \cdot w_{t+1} \cdot \frac{\partial L}{\partial h_{t+1}} \quad (4.1) $$
+$$ 
+\frac{\partial L}{\partial h_t} = \Phi'(w_{t+1}h_t) \cdot w_{t+1} \cdot \frac{\partial L}{\partial h_{t+1}} \quad (4.1) 
+$$
 
 If we initialize weights from a standard normal distribution, each $w_t$ will average around a magnitude of 1. For the sigmoid activation, its derivative is bounded, peaking at 0.25. As we backpropagate, the gradient concerning the hidden activations decreases rapidly, resulting in extremely small updates for initial layers—a phenomenon termed the "vanishing gradient problem". Pushing these gradients can cause them to explode, the other side of the coin. 
 

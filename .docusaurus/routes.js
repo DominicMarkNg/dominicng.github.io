@@ -69,7 +69,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f0a'),
+    component: ComponentCreator('/docs', 'fdf'),
     routes: [
       {
         path: '/docs/Calculus/Elementary/Basic Rules + Proofs',
@@ -180,6 +180,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Neural Networks/Attention and Transformers/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Attention and Transformers/Introduction', 'f60'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Convolutional Neural Networks/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Convolutional Neural Networks/Introduction', '1ea'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/Neural Networks/Deep Learning Principles/Activation Functions',
         component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Activation Functions', '5e5'),
         exact: true,
@@ -200,6 +212,12 @@ export default [
       {
         path: '/docs/Neural Networks/Deep Learning Principles/Problems with Depth',
         component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Problems with Depth', '89d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Deep Reinforcement Learning/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Deep Reinforcement Learning/Introduction', '15b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -230,6 +248,30 @@ export default [
       {
         path: '/docs/Neural Networks/Fundamentals/Neural Networks',
         component: ComponentCreator('/docs/Neural Networks/Fundamentals/Neural Networks', 'cfa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Graph Neural Networks/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Graph Neural Networks/Introduction', 'acc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Radial Basis Function Networks/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Radial Basis Function Networks/Introduction', 'cac'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Recurrent Neural Networks/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Recurrent Neural Networks/Introduction', '02f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Neural Networks/Restricted Boltzmann Machine/Introduction',
+        component: ComponentCreator('/docs/Neural Networks/Restricted Boltzmann Machine/Introduction', '1e6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

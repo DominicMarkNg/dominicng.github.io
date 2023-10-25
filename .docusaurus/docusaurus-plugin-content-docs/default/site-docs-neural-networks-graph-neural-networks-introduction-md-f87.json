@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Graph Neural Networks/Introduction",
+  "id": "Neural Networks/Graph Neural Networks/Introduction",
+  "title": "Navigating the Landscape of Graph Neural Networks",
+  "description": "Graph Neural Networks (GNNs) mark a significant stride in the domain of machine learning on graphs, allowing models to harness the structural information embedded in data. Unlike traditional neural networks, GNNs thrive in irregular data domains, making them particularly suited for tasks involving networks, social media data, molecular structures, and myriad other graph-structured datasets.",
+  "source": "@site/docs/Neural Networks/Graph Neural Networks/Introduction.md",
+  "sourceDirName": "Neural Networks/Graph Neural Networks",
+  "slug": "/Neural Networks/Graph Neural Networks/Introduction",
+  "permalink": "/docs/Neural Networks/Graph Neural Networks/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Graph Neural Networks/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Navigating the Landscape of Graph Neural Networks",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unveiling the Power of Convolutional Neural Networks",
+    "permalink": "/docs/Neural Networks/Convolutional Neural Networks/Introduction"
+  },
+  "next": {
+    "title": "Harnessing Attention A Paradigm Shift in Neural Networks",
+    "permalink": "/docs/Neural Networks/Attention and Transformers/Introduction"
+  }
+}

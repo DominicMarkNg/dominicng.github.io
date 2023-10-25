@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Attention and Transformers/Introduction",
+  "id": "Neural Networks/Attention and Transformers/Introduction",
+  "title": "Harnessing Attention A Paradigm Shift in Neural Networks",
+  "description": "The essence of attention mechanisms lies in their ability to focus on different parts of the input selectively, akin to how human attention zooms in on pertinent details while glossing over the irrelevant. This section elucidates the diverse applications and formulations of attention mechanisms across various domains.",
+  "source": "@site/docs/Neural Networks/Attention and Transformers/Introduction.md",
+  "sourceDirName": "Neural Networks/Attention and Transformers",
+  "slug": "/Neural Networks/Attention and Transformers/Introduction",
+  "permalink": "/docs/Neural Networks/Attention and Transformers/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Attention and Transformers/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Harnessing Attention A Paradigm Shift in Neural Networks",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigating the Landscape of Graph Neural Networks",
+    "permalink": "/docs/Neural Networks/Graph Neural Networks/Introduction"
+  },
+  "next": {
+    "title": "Venturing into Deep Reinforcement Learning",
+    "permalink": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction"
+  }
+}

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Matrix Multiplication as Linear Combination of Columns
 
-Matrix multiplication can be visualized in a variety of ways, but one of the most intuitive methods is to think of it as a linear combination of columns. Let's consider a matrix \( A \) of dimensions \( m \times n \) and a column vector \( \mathbf{x} \) of dimensions \( n \times 1 \).
+Matrix multiplication can be visualized in a variety of ways, but one of the most intuitive methods is to think of it as a linear combination of columns. Let's consider a matrix $ A $ of dimensions $ m \times n $ and a column vector $ \mathbf{x} $ of dimensions $ n \times 1 $.
 
 $$
 A = \begin{pmatrix}
@@ -24,7 +24,7 @@ x_n
 \end{pmatrix}
 $$
 
-Multiplying \( A \) by \( \mathbf{x} \) is then equivalent to taking a linear combination of the columns of \( A \), scaled by the corresponding elements in \( \mathbf{x} \).
+Multiplying $ A $ by $ \mathbf{x} $ is then equivalent to taking a linear combination of the columns of $ A $, scaled by the corresponding elements in $ \mathbf{x} $.
 
 $$
 A\mathbf{x} = x_1 \begin{pmatrix}
@@ -49,15 +49,15 @@ a_{mn}
 \end{pmatrix}
 $$
 
-### Implications for \( Ax = b \)
+### Implications for $ Ax = b $
 
-This view of matrix multiplication also offers insight into the equation \( Ax = b \). If \( b \) is to be the result of \( Ax \), then \( b \) must lie in the column space of \( A \). In other words, \( b \) must be representable as a linear combination of the columns of \( A \).
+This view of matrix multiplication also offers insight into the equation $ Ax = b $. If $ b $ is to be the result of $ Ax $, then $ b $ must lie in the column space of $ A $. In other words, $ b $ must be representable as a linear combination of the columns of $ A $.
 
-Thus, when you're solving \( Ax = b \), you're essentially finding the weights (or coefficients) that create \( b \) from the columns of \( A \). If \( b \) is not in the column space of \( A \), then the equation \( Ax = b \) has no solution.
+Thus, when you're solving $ Ax = b $, you're essentially finding the weights (or coefficients) that create $ b $ from the columns of $ A $. If $ b $ is not in the column space of $ A $, then the equation $ Ax = b $ has no solution.
 
 ## The Trace of a Matrix and Its Importance
 
-The trace of a square matrix is defined as the sum of its diagonal elements. For a square matrix \( A \) of dimensions \( n \times n \), the trace is given by:
+The trace of a square matrix is defined as the sum of its diagonal elements. For a square matrix $ A $ of dimensions $ n \times n $, the trace is given by:
 
 $$
 \text{Tr}(A) = a_{11} + a_{22} + \ldots + a_{nn} = \sum_{i=1}^{n} a_{ii}
@@ -67,7 +67,7 @@ $$
 
 The trace has several useful properties and applications in mathematics, computer science, and engineering. Some of the key reasons why it is important are:
 
-1. **Invariance Under Similarity Transform**: If \( B = P^{-1}AP \) where \( P \) is invertible, then \( \text{Tr}(A) = \text{Tr}(B) \). This makes the trace useful in studying the characteristics of similar matrices.
+1. **Invariance Under Similarity Transform**: If $ B = P^{-1}AP $ where $ P $ is invertible, then $ \text{Tr}(A) = \text{Tr}(B) $. This makes the trace useful in studying the characteristics of similar matrices.
 
 2. **Easy to Compute**: Unlike the determinant, the trace can be quickly computed as it is simply the sum of diagonal elements.
 
@@ -273,3 +273,4 @@ Singular Value Decomposition (SVD) is an essential concept in matrix factorizati
   - $$ U $$ is an $$ m \times m $$ orthogonal matrix. The elements of $$ U $$ are the eigenvectors of $$ AA^T $$ and are referred to as the **left-singular vectors**.
   - $$ V $$ is an $$ n \times n $$ orthogonal matrix. The elements of $$ V $$ are the eigenvectors of $$ A^TA $$ and are termed the **right-singular vectors**.
   - $$ D $$ is an $$ m \times n $$ diagonal matrix. The non-zero elements of $$ D $$ are the square roots of the eigenvalues of $$ A^TA $$ (or equivalently, $$ AA^T $$), and these are called the **singular values**.
+

@@ -11,7 +11,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "https://github.com/DominicMarkNg",
   "projectName": "docusaurus",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",

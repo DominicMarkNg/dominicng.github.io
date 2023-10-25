@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-    "permalink": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges"
+    "title": "Venturing into Deep Reinforcement Learning",
+    "permalink": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction"
   },
   "next": {
     "title": "Matrix Operations, Special Matrices, and Matrix Decompositions",

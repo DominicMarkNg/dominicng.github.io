@@ -11,13 +11,13 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Intro",
+        "label": "Introduction",
         "href": "/docs/Intro",
         "docId": "Intro"
       },
       {
         "type": "category",
-        "label": "Probability",
+        "label": "probability",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -258,6 +258,104 @@
                 "docId": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges"
               }
             ]
+          },
+          {
+            "type": "category",
+            "label": "Radial Basis Function Networks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction to Radial Basis Function Networks",
+                "href": "/docs/Neural Networks/Radial Basis Function Networks/Introduction",
+                "docId": "Neural Networks/Radial Basis Function Networks/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Restricted Boltzmann Machine",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/docs/Neural Networks/Restricted Boltzmann Machine/Introduction",
+                "docId": "Neural Networks/Restricted Boltzmann Machine/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Recurrent Neural Networks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Unveiling the Dynamics of Recurrent Neural Networks",
+                "href": "/docs/Neural Networks/Recurrent Neural Networks/Introduction",
+                "docId": "Neural Networks/Recurrent Neural Networks/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Convolutional Neural Networks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Unveiling the Power of Convolutional Neural Networks",
+                "href": "/docs/Neural Networks/Convolutional Neural Networks/Introduction",
+                "docId": "Neural Networks/Convolutional Neural Networks/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Graph Neural Networks",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Navigating the Landscape of Graph Neural Networks",
+                "href": "/docs/Neural Networks/Graph Neural Networks/Introduction",
+                "docId": "Neural Networks/Graph Neural Networks/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Attention and Transformers",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Harnessing Attention A Paradigm Shift in Neural Networks",
+                "href": "/docs/Neural Networks/Attention and Transformers/Introduction",
+                "docId": "Neural Networks/Attention and Transformers/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Deep Reinforcement Learning",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Venturing into Deep Reinforcement Learning",
+                "href": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction",
+                "docId": "Neural Networks/Deep Reinforcement Learning/Introduction"
+              }
+            ]
           }
         ]
       },
@@ -392,6 +490,18 @@
       "description": "Matrix Multiplication as Linear Combination of Columns",
       "sidebar": "tutorialSidebar"
     },
+    "Neural Networks/Attention and Transformers/Introduction": {
+      "id": "Neural Networks/Attention and Transformers/Introduction",
+      "title": "Harnessing Attention A Paradigm Shift in Neural Networks",
+      "description": "The essence of attention mechanisms lies in their ability to focus on different parts of the input selectively, akin to how human attention zooms in on pertinent details while glossing over the irrelevant. This section elucidates the diverse applications and formulations of attention mechanisms across various domains.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Convolutional Neural Networks/Introduction": {
+      "id": "Neural Networks/Convolutional Neural Networks/Introduction",
+      "title": "Unveiling the Power of Convolutional Neural Networks",
+      "description": "Convolutional Neural Networks (CNNs) are a class of deep learning models particularly adept at processing grid-like data, such as images. Their biological inspiration stems from the visual cortex's mechanism of identifying different patterns and structures in the visual field. This design facilitates the learning of hierarchical features from the data, making CNNs a cornerstone in various computer vision applications.",
+      "sidebar": "tutorialSidebar"
+    },
     "Neural Networks/Deep Learning Principles/Activation Functions": {
       "id": "Neural Networks/Deep Learning Principles/Activation Functions",
       "title": "Activation Functions",
@@ -414,6 +524,12 @@
       "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
       "title": "Problems with Depth",
       "description": "The Impact of Gradient Ratios in Deep Learning",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Deep Reinforcement Learning/Introduction": {
+      "id": "Neural Networks/Deep Reinforcement Learning/Introduction",
+      "title": "Venturing into Deep Reinforcement Learning",
+      "description": "Deep Reinforcement Learning (DRL) is a confluence of traditional Reinforcement Learning (RL) and Deep Learning (DL), embodying the aspiration to leverage the representational power of deep learning to tackle the sequential decision-making challenges inherent in reinforcement learning.",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Fundamentals/Backpropagation/A Vector Perspective": {
@@ -444,6 +560,30 @@
       "id": "Neural Networks/Fundamentals/Neural Networks",
       "title": "Neural Networks",
       "description": "Welcome to Chapter 3: \"Foundations of Shallow Neural Networks and Their Applications.\" In this chapter, we will embark on a journey through the fundamental concepts and practical applications of shallow neural networks, providing you with a solid foundation in machine learning.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Graph Neural Networks/Introduction": {
+      "id": "Neural Networks/Graph Neural Networks/Introduction",
+      "title": "Navigating the Landscape of Graph Neural Networks",
+      "description": "Graph Neural Networks (GNNs) mark a significant stride in the domain of machine learning on graphs, allowing models to harness the structural information embedded in data. Unlike traditional neural networks, GNNs thrive in irregular data domains, making them particularly suited for tasks involving networks, social media data, molecular structures, and myriad other graph-structured datasets.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Radial Basis Function Networks/Introduction": {
+      "id": "Neural Networks/Radial Basis Function Networks/Introduction",
+      "title": "Introduction to Radial Basis Function Networks",
+      "description": "Radial Basis Function (RBF) Networks serve as a potent tool for addressing problems associated with nonlinear mappings between input and output spaces. They find their footing in the realm of artificial neural networks, where their operational mechanism is distinct. Unlike traditional neural networks that compute activations via inner products, RBF networks gauge activations based on the distance of the input from fixed points in the input space. This fundamental difference lends RBF networks a unique flavor in tackling nonlinear approximation tasks.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Recurrent Neural Networks/Introduction": {
+      "id": "Neural Networks/Recurrent Neural Networks/Introduction",
+      "title": "Unveiling the Dynamics of Recurrent Neural Networks",
+      "description": "Recurrent Neural Networks (RNNs) embody a vibrant segment of neural networks specialized in handling sequential data. Unlike conventional feedforward networks, RNNs possess a memory-like mechanism allowing them to maintain a form of state information across sequences. This unique characteristic makes them a natural choice for tasks involving time-series data, text, and other sequential or temporal data.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Neural Networks/Restricted Boltzmann Machine/Introduction": {
+      "id": "Neural Networks/Restricted Boltzmann Machine/Introduction",
+      "title": "Introduction",
+      "description": "Restricted Boltzmann Machines (RBMs) are a class of generative neural networks with a two-layered bipartite graph structure, comprising visible and hidden units. They are at the crossroads of feature learning, dimensionality reduction, and probabilistic modeling, making them a crucial player in the landscape of unsupervised learning.",
       "sidebar": "tutorialSidebar"
     },
     "Probability/Combinatorics/Graph Theory Basics": {

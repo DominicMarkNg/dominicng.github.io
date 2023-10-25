@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Neural Networks/Deep Reinforcement Learning/Introduction",
+  "id": "Neural Networks/Deep Reinforcement Learning/Introduction",
+  "title": "Venturing into Deep Reinforcement Learning",
+  "description": "Deep Reinforcement Learning (DRL) is a confluence of traditional Reinforcement Learning (RL) and Deep Learning (DL), embodying the aspiration to leverage the representational power of deep learning to tackle the sequential decision-making challenges inherent in reinforcement learning.",
+  "source": "@site/docs/Neural Networks/Deep Reinforcement Learning/Introduction.md",
+  "sourceDirName": "Neural Networks/Deep Reinforcement Learning",
+  "slug": "/Neural Networks/Deep Reinforcement Learning/Introduction",
+  "permalink": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Neural Networks/Deep Reinforcement Learning/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Venturing into Deep Reinforcement Learning",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Harnessing Attention A Paradigm Shift in Neural Networks",
+    "permalink": "/docs/Neural Networks/Attention and Transformers/Introduction"
+  },
+  "next": {
+    "title": "Intro",
+    "permalink": "/docs/Linear Algebra/Intro"
+  }
+}
