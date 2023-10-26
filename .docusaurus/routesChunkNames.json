@@ -1,5 +1,5 @@
 {
-  "/blog-8fa": {
+  "/blog-e6e": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "f531b45d"
@@ -7,16 +7,10 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "74738e70"
       },
       {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "0f990c07"
       }
     ],
     "metadata": "b2b675dd"
@@ -28,29 +22,21 @@
     },
     "archive": "b2f554cd"
   },
-  "/blog/first-blog-post-4dd": {
+  "/blog/Infinite-Nests-a6d": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
     },
     "sidebar": "814f3328",
-    "content": "e273c56f"
+    "content": "3b910f03"
   },
-  "/blog/long-blog-post-8cb": {
+  "/blog/resources-f7f": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "f531b45d"
     },
     "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/blog/mdx-blog-post-8fd": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "f531b45d"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
+    "content": "42428303"
   },
   "/blog/tags-a43": {
     "__comp": "01a85c17",
@@ -60,7 +46,7 @@
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/docusaurus-fa3": {
+  "/blog/tags/maths-d5f": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -68,22 +54,16 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
+        "content": "74738e70"
       },
       {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "0f990c07"
       }
     ],
-    "tag": "a80da1cf",
-    "listMetadata": "608ae6a4"
+    "tag": "66e6fcdb",
+    "listMetadata": "daedb38b"
   },
-  "/blog/tags/facebook-e76": {
+  "/blog/tags/settheory-77c": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "f531b45d"
@@ -91,50 +71,14 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
-      }
-    ],
-    "tag": "031793e1",
-    "listMetadata": "096bfee4"
-  },
-  "/blog/tags/hello-f33": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "f531b45d"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
+        "content": "74738e70"
       },
       {
-        "content": "8717b14a"
+        "content": "0f990c07"
       }
     ],
-    "tag": "30a24c52",
-    "listMetadata": "66406991"
-  },
-  "/blog/tags/hola-e1e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "f531b45d"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "tag": "e16015ca",
-    "listMetadata": "4c9e35b1"
-  },
-  "/blog/welcome-39f": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "f531b45d"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
+    "tag": "60d641c5",
+    "listMetadata": "a19cbfa8"
   },
   "/markdown-page-622": {
     "__comp": "1f391b9e",

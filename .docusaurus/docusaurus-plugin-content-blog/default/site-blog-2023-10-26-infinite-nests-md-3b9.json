@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/Infinite-Nests",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-10-26-Infinite-Nests.md",
+  "source": "@site/blog/2023-10-26-Infinite-Nests.md",
+  "title": "Infinite Nested Sets",
+  "description": "Question:",
+  "date": "2023-10-26T00:00:00.000Z",
+  "formattedDate": "October 26, 2023",
+  "tags": [
+    {
+      "label": "settheory",
+      "permalink": "/blog/tags/settheory"
+    },
+    {
+      "label": "maths",
+      "permalink": "/blog/tags/maths"
+    }
+  ],
+  "readingTime": 2.0033333333333334,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Dominic Ng",
+      "title": "Doctor in Training",
+      "url": "https://github.com/DominicMarkNg",
+      "imageURL": "https://github.com/DominicMarkNg",
+      "key": "dng"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Infinite-Nests",
+    "title": "Infinite Nested Sets",
+    "authors": "dng",
+    "tags": [
+      "settheory",
+      "maths"
+    ]
+  },
+  "nextItem": {
+    "title": "Resources for Maths and Data Science",
+    "permalink": "/blog/resources"
+  }
+}

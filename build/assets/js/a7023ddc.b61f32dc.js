@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"settheory","permalink":"/blog/tags/settheory","count":2},{"label":"maths","permalink":"/blog/tags/maths","count":2}]')}}]);

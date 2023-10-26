@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '8fa'),
+    component: ComponentCreator('/blog', 'e6e'),
     exact: true
   },
   {
@@ -13,18 +13,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '4dd'),
+    path: '/blog/Infinite-Nests',
+    component: ComponentCreator('/blog/Infinite-Nests', 'a6d'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '8cb'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '8fd'),
+    path: '/blog/resources',
+    component: ComponentCreator('/blog/resources', 'f7f'),
     exact: true
   },
   {
@@ -33,28 +28,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'fa3'),
+    path: '/blog/tags/maths',
+    component: ComponentCreator('/blog/tags/maths', 'd5f'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'e76'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'f33'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'e1e'),
-    exact: true
-  },
-  {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '39f'),
+    path: '/blog/tags/settheory',
+    component: ComponentCreator('/blog/tags/settheory', '77c'),
     exact: true
   },
   {

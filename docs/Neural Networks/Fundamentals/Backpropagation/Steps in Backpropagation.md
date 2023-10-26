@@ -78,7 +78,7 @@ In a basic setting, computational graphs present a straightforward representatio
 
 ### Understanding the Computational Graph
 
-Consider the example shown in Figure 2.2. Here, the computational graph is a single path. However, in more expressive networks, it is not always the case. A node might feed its output to multiple subsequent nodes. This fan-out scenario complicates the computation of derivatives. With just a single input $$ x $$, if we have $$ k $$ computational nodes determining the functions $$ g_1(x), g_2(x), \ldots, g_k(x) $$ and these nodes link to an output node computing a function $$ f() $$ with $$ k $$ arguments, the overall function becomes $$ f(g_1(x), \ldots, g_k(x)) $$. To handle this, the multivariate chain rule comes into play:
+Consider the example shown in Figure 2.2. Here, the computational graph is a single path. However, in more expressive networks, it is not always the case. A node might feed its output to multiple subsequent nodes. This fan-out scenario complicates the computation of derivatives. With just a single input $x$, if we have $k$ computational nodes determining the functions $g_1(x), g_2(x), \ldots, g_k(x)$ and these nodes link to an output node computing a function $f()$ with $k$ arguments, the overall function becomes $f(g_1(x), \ldots, g_k(x))$. To handle this, the multivariate chain rule comes into play:
 
 $$
 \frac{\partial f(g_1(x), \ldots, g_k(x))}{\partial x} = \sum_{i=1}^{k} \frac{\partial f(g_1(x), \ldots, g_k(x))}{\partial g_i(x)} \cdot \frac{\partial g_i(x)}{\partial x} \quad (2.3)
@@ -90,12 +90,10 @@ An alternative way to look at the multivariate chain rule is through a path-cent
 
 This approach, while providing a direct expression for derivatives, does result in redundant calculations. This is particularly evident when there are many paths between a node pair. The number of these paths can grow exponentially with the path length. This kind of repetition becomes a performance concern in large multilayer networks with shared nodes, as functions might be differentiated multiple times.
 
-An example of this can be observed with the simple function $$ o = \sin(x^2) + \cos(x^2) $$ as depicted in Figure 2.4. Here, the multivariate chain rule gives the derivative of output $$ o $$ with respect to $$ x $$:
+An example of this can be observed with the simple function $o = \sin(x^2) + \cos(x^2)$ as depicted in Figure 2.4. Here, the multivariate chain rule gives the derivative of output $o$ with respect to $x$:
 
 $$
-\frac{\partial o
-
-}{\partial x} = \frac{\partial K(p,q)}{\partial p} \cdot g'(y) \cdot f'(x) + \frac{\partial K(p,q)}{\partial q} \cdot h'(z) \cdot f'(x)
+\frac{\partial o}{\partial x} = \frac{\partial K(p,q)}{\partial p} \cdot g'(y) \cdot f'(x) + \frac{\partial K(p,q)}{\partial q} \cdot h'(z) \cdot f'(x)
 $$
 
 Which simplifies to:
@@ -110,13 +108,11 @@ Such examples emphasize the importance of understanding the computational graph'
 
 The path-centric perspective of the multivariate chain rule can be summarised:
 
- For a directed acyclic computational graph where the $$ i^{th} $$ node contains the variable $$ y(i) $$, the local derivative $$ z(i,j) $$ of the directed edge $$ (i,j) $$ is defined as $$ z(i,j) = \frac{\partial y(j)}{\partial y(i)} $$. Given a set of paths $$ P $$ from node $$ s $$ to node $$ t $$ in the graph, the value of $$ \frac{\partial y(t)}{\partial y(s)} $$ is given by computing the product of local gradients along each path in $$ P $$ and summing these products over all paths in $$ P $$.
+ For a directed acyclic computational graph where the $i^{th}$ node contains the variable $y(i)$, the local derivative $z(i,j)$ of the directed edge $(i,j)$ is defined as $z(i,j) = \frac{\partial y(j)}{\partial y(i)}$. Given a set of paths $P$ from node $s$ to node $t$ in the graph, the value of $\frac{\partial y(t)}{\partial y(s)}$ is given by computing the product of local gradients along each path in $P$ and summing these products over all paths in $P$.
 
 $$
 \frac{\partial y(t)}{\partial y(s)} = \sum_{P \in \mathcal{P}} \prod_{(i,j) \in P} z(i,j)
 $$
-
-Alright, let's represent the equations using `$$` as delimiters:
 
 ---
 
@@ -126,13 +122,15 @@ Alright, let's represent the equations using `$$` as delimiters:
 
 The number of paths between the input and the output in the computational graph grows exponentially. Specifically, for the provided case:
 
-$$ \text{Number of paths} = 2^5 = 32 $$
+$$\text{Number of paths} = 2^5 = 32$$
 
 This implies that the computational graph has five layers, with each layer having two units, hence giving rise to 32 different paths between the input and output.
 
-The `jth` hidden unit of the `ith` layer is symbolized as $ h(i,j) $. The function for each of these hidden units is defined by:
+The `jth` hidden unit of the `ith` layer is symbolized as $h(i,j)$. The function for each of these hidden units is defined by:
 
-$$ h(i,j) = h(i-1,1) \times h(i-1,2) \quad \forall j \in \{1,2\} $$
+$$
+h(i,j) = h(i-1,1) \times h(i-1,2) \quad \forall j \in \{1,2\}
+$$
 
 This equation indicates that each hidden unit is the product of its two preceding nodes.
 
@@ -140,16 +138,16 @@ This equation indicates that each hidden unit is the product of its two precedin
 
 In the context presented, the output is given by:
 
-$$ o = x^{32} $$
+$$o = x^{32}$$
 
 Although this output is straightforward to differentiate with respect to `x` directly, the exponential-time algorithm can be employed to gain insights into its operational dynamics.
 
 ### Derivatives of Hidden Units
 
-For each hidden unit $ h(i,j) $, the partial derivatives with respect to its two inputs are:
+For each hidden unit $h(i,j)$, the partial derivatives with respect to its two inputs are:
 
-$$ \frac{\partial h(i,j)}{\partial h(i-1,1)} = h(i-1,2) $$
-$$ \frac{\partial h(i,j)}{\partial h(i-1,2)} = h(i-1,1) $$
+$$\frac{\partial h(i,j)}{\partial h(i-1,1)} = h(i-1,2)$$
+$$\frac{\partial h(i,j)}{\partial h(i-1,2)} = h(i-1,1)$$
 
 These equations reveal an interesting property: the partial derivative of a multiplication operation with respect to one of the variables is the other variable.
 
@@ -161,32 +159,38 @@ THIS NEEDS FIXING BUT YOU NEED TO FIND OUT HOW TO FIX THE EQUATION IN LATEX!!!
 
 The derivative of the output `o` with respect to the input `x` can be obtained by summing the products of local derivatives along all 32 paths from the input to the output:
 
-$$ \frac{\partial o}{\partial x} = \sum_{j_1,j_2,j_3,j_4,j_5 \in \{1,2\}^5} h(1,j_1) \cdot h(2,j_2) \cdot h(3,j_3) \cdot h(4,j_4) \cdot h(5,j_5) \cdot x \cdot x^2 \cdot x^4 \cdot x^8 \cdot x^{16} $$
+$$\frac{\partial o}{\partial x} = \sum_{j_1,j_2,j_3,j_4,j_5 \in \{1,2\}^5} h(1,j_1) \cdot h(2,j_2) \cdot h(3,j_3) \cdot h(4,j_4) \cdot h(5,j_5) \cdot x \cdot x^2 \cdot x^4 \cdot x^8 \cdot x^{16}$$
 
 Given the properties of the computational graph and its derivatives, this can be simplified to:
 
-$$ \frac{\partial o}{\partial x} = \sum_{\text{All 32 paths}} x^{31} = 32x^{31} $$
+$$\frac{\partial o}{\partial x} = \sum_{\text{All 32 paths}} x^{31} = 32x^{31}$$
 
-The result is consistent with directly differentiating the function \( o = x^{32} \) with respect to `x`.
+The result is consistent with directly differentiating the function $o = x^{32}$ with respect to `x`.
 
 ---
 
 ### Explaining Path-Aggregative Values in Graph Theory
 
-In graph theory, computing all types of path-aggregative values over directed acyclic graphs is done using dynamic programming. Consider a directed acyclic graph in which the value $$ z(i,j) $$ (interpreted as local partial derivative of variable in node `j` with respect to variable in node `i`) is associated with edge $$(i,j)$$. In other words, if $$ y(p) $$ is the variable in the node `p`, we have the following:
-$$ z(i,j) = \frac{\partial y(j)}{\partial y(i)} \quad (2.7) $$
+In graph theory, computing all types of path-aggregative values over directed acyclic graphs is done using dynamic programming. Consider a directed acyclic graph in which the value $z(i,j)$ (interpreted as local partial derivative of variable in node `j` with respect to variable in node `i`) is associated with edge $(i,j)$. In other words, if $y(p)$ is the variable in the node `p`, we have the following:
+$$
+z(i,j) = \frac{\partial y(j)}{\partial y(i)} \quad (2.7)
+$$
 
-An example of such a computational graph is shown in **Figure**. In this case, we have associated the edge $$(2,4)$$ with the corresponding partial derivative. We would like to compute the product of $$ z(i,j) $$ over each path $$ P \in P $$ from source node `s` to output node `t` and then add them in order to obtain the partial derivative:
-$$ S(s,t) = \sum_{P \in P} \prod_{(i,j) \in P} z(i,j) \quad (2.8) $$
+An example of such a computational graph is shown in **Figure**. In this case, we have associated the edge $(2,4)$ with the corresponding partial derivative. We would like to compute the product of $z(i,j)$ over each path $P \in P$ from source node `s` to output node `t` and then add them in order to obtain the partial derivative:
+$$
+S(s,t) = \sum_{P \in P} \prod_{(i,j) \in P} z(i,j) \quad (2.8)
+$$
 
-Let $$ A(i) $$ be the set of nodes at the end points of outgoing edges from node `i`. We can compute the aggregated value $$ S(i,t) $$ for each intermediate node `i` (between source node `s` and output node `t`) using the following well-known dynamic programming update:
-$$ S(i,t) \leftarrow \sum_{j \in A(i)} S(j,t)z(i,j) \quad (2.9) $$
+Let $A(i)$ be the set of nodes at the end points of outgoing edges from node `i`. We can compute the aggregated value $S(i,t)$ for each intermediate node `i` (between source node `s` and output node `t`) using the following well-known dynamic programming update:
+$$
+S(i,t) \leftarrow \sum_{j \in A(i)} S(j,t)z(i,j) \quad (2.9)
+$$
 
-This computation can be performed backwards starting from the nodes directly incident on `o`, since $$ S(t,t) = \frac{\partial y(t)}{\partial y(t)} $$ is already known to be 1. This is because the partial derivative of a variable with respect to itself is always 1. Therefore one can describe the pseudocode of this algorithm as follows:
-1. Initialize $$ S(t,t) = 1 $$
+This computation can be performed backwards starting from the nodes directly incident on `o`, since $S(t,t) = \frac{\partial y(t)}{\partial y(t)}$ is already known to be 1. This is because the partial derivative of a variable with respect to itself is always 1. Therefore one can describe the pseudocode of this algorithm as follows:
+1. Initialize $S(t,t) = 1$
 2. repeat
-   - Select an unprocessed node `i` such that the values of $$ S(j,t) $$ for all of its outgoing nodes $$ j \in A(i) $$ are available.
-   - Update $$ S(i,t) \leftarrow \sum_{j \in A(i)} S(j,t)z(i,j) $$
+   - Select an unprocessed node `i` such that the values of $S(j,t)$ for all of its outgoing nodes $j \in A(i)$ are available.
+   - Update $S(i,t) \leftarrow \sum_{j \in A(i)} S(j,t)z(i,j)$
 3. until all nodes have been selected;
 
 ---

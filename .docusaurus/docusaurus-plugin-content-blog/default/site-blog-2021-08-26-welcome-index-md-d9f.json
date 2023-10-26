@@ -51,6 +51,10 @@
       "docusaurus"
     ]
   },
+  "prevItem": {
+    "title": "Infinite Nested Sets",
+    "permalink": "/blog/Infinite-Nests"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"

@@ -37,7 +37,13 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "remarkPlugins": [
+            null
+          ],
+          "rehypePlugins": [
+            null
+          ]
         },
         "theme": {
           "customCss": "/Users/dominicng/Documents/GitHub/dominicng.github.io/src/css/custom.css"

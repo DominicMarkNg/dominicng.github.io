@@ -1,218 +1,98 @@
 {
   "blogPosts": [
     {
-      "id": "welcome",
+      "id": "Infinite-Nests",
       "metadata": {
-        "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-        "source": "@site/blog/2021-08-26-welcome/index.md",
-        "title": "Welcome",
-        "description": "",
-        "date": "2021-08-26T00:00:00.000Z",
-        "formattedDate": "August 26, 2021",
+        "permalink": "/blog/Infinite-Nests",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-10-26-Infinite-Nests.md",
+        "source": "@site/blog/2023-10-26-Infinite-Nests.md",
+        "title": "Infinite Nested Sets",
+        "description": "Question:",
+        "date": "2023-10-26T00:00:00.000Z",
+        "formattedDate": "October 26, 2023",
         "tags": [
           {
-            "label": "facebook",
-            "permalink": "/blog/tags/facebook"
+            "label": "settheory",
+            "permalink": "/blog/tags/settheory"
           },
           {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
+            "label": "maths",
+            "permalink": "/blog/tags/maths"
           }
         ],
-        "readingTime": 0,
+        "readingTime": 2.0033333333333334,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
-          },
-          {
-            "name": "Yangshun Tay",
-            "title": "Front End Engineer @ Facebook",
-            "url": "https://github.com/yangshun",
-            "imageURL": "https://github.com/yangshun.png",
-            "key": "yangshun"
+            "name": "Dominic Ng",
+            "title": "Doctor in Training",
+            "url": "https://github.com/DominicMarkNg",
+            "imageURL": "https://github.com/DominicMarkNg",
+            "key": "dng"
           }
         ],
         "frontMatter": {
-          "slug": "welcome",
-          "title": "Welcome",
-          "authors": [
-            "slorber",
-            "yangshun"
-          ],
+          "slug": "Infinite-Nests",
+          "title": "Infinite Nested Sets",
+          "authors": "dng",
           "tags": [
-            "facebook",
-            "hello",
-            "docusaurus"
+            "settheory",
+            "maths"
           ]
         },
         "nextItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
+          "title": "Resources for Maths and Data Science",
+          "permalink": "/blog/resources"
         }
       },
-      "content": ""
+      "content": "##Question:\n$$A_n = [0, \\frac{1}{n}) = \\{ x \\in \\mathbb{R} | 0 \\leq x < \\frac{1}{n} \\}$$\n\n$$A = \\bigcap_{n=1}^{\\infty} A_n = A_1 \\cap A_2 \\cap \\cdots$$\n\n$$Prove A = {0}$$\n\nThis problem demonstrates the behavior of infinite intersections of nested sets. The sets $A_n$ are nested, meaning that $A_{n+1} \\subseteq A_n$ for all $n \\in \\mathbb{N}$. The interval $A_n$ becomes arbitrarily small as $n$ increases, but it always contains numbers greater than 0. However, there is no real number that is in every $A_n$, and thus the intersection of all the $A_n$ is the empty set. This can be shown formally as follows:\n\nLet's suppose, for contradiction, that there exists an $x \\in A = \\bigcap_{n=1}^{\\infty} A_n$. By the definition of intersection, this would imply that $x$ is in every set $A_n$. However, for every real number $x$ in the interval $[0, \\frac{1}{n})$, there exists an $n$ such that $x$ is not in the interval $[0, \\frac{1}{n+1})$ because $\\frac{1}{n+1} < \\frac{1}{n}$ for all $n \\in \\mathbb{N}$, and thus $x \\geq \\frac{1}{n+1}$. This is a contradiction, implying that there does not exist such an $x$ in the intersection of all $A_n$, and thus $A = \\emptyset$.\n\nSuppose for contradiction:\n\n$$x \\in A = \\bigcap_{n=1}^{\\infty} A_n$$\n\nBy definition of intersection, $x$ is in every set $A_n$. However, for every real number $x$ in the interval $[0, \\frac{1}{n})$, there exists an $n$ such that $x$ is not in the interval $[0, \\frac{1}{n+1})$ because \n\n$$\\frac{1}{n+1} < \\frac{1}{n}$$ \n\nfor all $n \\in \\mathbb{N}$, and thus $x \\geq \\frac{1}{n+1}$. This is a contradiction, implying that there does not exist such an $x$ in the intersection of all $A_n$, and thus $A = \\emptyset$.\n\nAlright, let's simplify this discussion with an analogy. Imagine you have a sequence of shrinking boxes:\n\n1. In the first scenario, the box (let's call it Box 1) has a length of 1 foot.\n2. In the next scenario, the box (Box 2) has a length of 1/2 foot.\n3. In the third scenario, the box (Box 3) has a length of 1/3 foot.\n4. And so on... The box keeps shrinking.\n\nNow, the question is, if you keep going like this, shrinking the box in each scenario, what do you have left at the end?\n\nThe mathematical notation you provided describes this scenario but with intervals (a type of set) instead of boxes. The notation $A_n = [0, \\frac{1}{n})$ is just a fancy way of describing these shrinking boxes (or intervals). Here, $n$ represents the scenario number, and $\\frac{1}{n}$ tells you the length of the box in that scenario.\n\nThe expression $$A = \\bigcap_{n=1}^{\\infty} A_n$$ is asking what is common to all these boxes if you go through all the scenarios (from 1 to infinity). In other words, it's like asking: Is there a piece of space that remains covered by all the boxes, no matter how small they get?\n\nIn this case, the answer is no. There's no piece of space that remains covered by all the boxes in all scenarios because the boxes keep getting smaller and smaller, and eventually, they don't cover anything. So the intersection of all these shrinking intervals (or the common space covered by all the boxes) is empty. In mathematical terms, we say the intersection of all these sets (or intervals) is the empty set, denoted as $$A = \\emptyset$$.\n\nNow, regarding the inequality $\\frac{n+1}{n} > \\frac{1}{n}$, this is just a mathematical way of showing that as you go from one scenario to the next (e.g., from Box 1 to Box 2, from Box 2 to Box 3, etc.), the box is indeed getting smaller."
     },
     {
-      "id": "mdx-blog-post",
+      "id": "resources",
       "metadata": {
-        "permalink": "/blog/mdx-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-        "title": "MDX Blog Post",
-        "description": "Use the power of React to create interactive blog posts.",
-        "date": "2021-08-01T00:00:00.000Z",
-        "formattedDate": "August 1, 2021",
+        "permalink": "/blog/resources",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023-10-26-resources.md",
+        "source": "@site/blog/2023-10-26-resources.md",
+        "title": "Resources for Maths and Data Science",
+        "description": "Calculus",
+        "date": "2023-10-26T00:00:00.000Z",
+        "formattedDate": "October 26, 2023",
         "tags": [
           {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
+            "label": "settheory",
+            "permalink": "/blog/tags/settheory"
+          },
+          {
+            "label": "maths",
+            "permalink": "/blog/tags/maths"
           }
         ],
-        "readingTime": 0.08666666666666667,
+        "readingTime": 0.1,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
+            "name": "Dominic Ng",
+            "title": "Doctor in Training",
+            "url": "https://github.com/DominicMarkNg",
+            "imageURL": "https://github.com/DominicMarkNg",
+            "key": "dng"
           }
         ],
         "frontMatter": {
-          "slug": "mdx-blog-post",
-          "title": "MDX Blog Post",
-          "authors": [
-            "slorber"
-          ],
+          "slug": "resources",
+          "title": "Resources for Maths and Data Science",
+          "authors": "dng",
           "tags": [
-            "docusaurus"
+            "settheory",
+            "maths"
           ]
         },
         "prevItem": {
-          "title": "Welcome",
-          "permalink": "/blog/welcome"
-        },
-        "nextItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
+          "title": "Infinite Nested Sets",
+          "permalink": "/blog/Infinite-Nests"
         }
       },
-      "content": ":::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
-    },
-    {
-      "id": "long-blog-post",
-      "metadata": {
-        "permalink": "/blog/long-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-        "source": "@site/blog/2019-05-29-long-blog-post.md",
-        "title": "Long Blog Post",
-        "description": "This is the summary of a very long blog post,",
-        "date": "2019-05-29T00:00:00.000Z",
-        "formattedDate": "May 29, 2019",
-        "tags": [
-          {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 1.3666666666666667,
-        "hasTruncateMarker": true,
-        "authors": [
-          {
-            "name": "Endilie Yacop Sucipto",
-            "title": "Maintainer of Docusaurus",
-            "url": "https://github.com/endiliey",
-            "imageURL": "https://github.com/endiliey.png",
-            "key": "endi"
-          }
-        ],
-        "frontMatter": {
-          "slug": "long-blog-post",
-          "title": "Long Blog Post",
-          "authors": "endi",
-          "tags": [
-            "hello",
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
-        },
-        "nextItem": {
-          "title": "First Blog Post",
-          "permalink": "/blog/first-blog-post"
-        }
-      },
-      "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    },
-    {
-      "id": "first-blog-post",
-      "metadata": {
-        "permalink": "/blog/first-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-        "source": "@site/blog/2019-05-28-first-blog-post.md",
-        "title": "First Blog Post",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-        "date": "2019-05-28T00:00:00.000Z",
-        "formattedDate": "May 28, 2019",
-        "tags": [
-          {
-            "label": "hola",
-            "permalink": "/blog/tags/hola"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.08,
-        "hasTruncateMarker": false,
-        "authors": [
-          {
-            "name": "Gao Wei",
-            "title": "Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          }
-        ],
-        "frontMatter": {
-          "slug": "first-blog-post",
-          "title": "First Blog Post",
-          "authors": {
-            "name": "Gao Wei",
-            "title": "Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          },
-          "tags": [
-            "hola",
-            "docusaurus"
-          ]
-        },
-        "prevItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
-        }
-      },
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+      "content": "##Calculus\n- Calculus with Proofs (https://www.youtube.com/@mat1378/playlists?view=50&sort=dd&shelf_id=1)\n- \n\n##Optimisation\n- \n- \n\n##Linear Algebra\n- \n- \n\n##Data Science\n- Neural Networks and Deep Learning by Aggarwal\n- Dive into Deep Learning (https://d2l.ai/)"
     }
   ]
 }
