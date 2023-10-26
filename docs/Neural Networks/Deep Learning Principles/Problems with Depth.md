@@ -5,6 +5,7 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+---
 ## The Impact of Gradient Ratios in Deep Learning
 
 Deep learning models, particularly when they are deep, present a series of optimization challenges that are not usually encountered in shallower models or traditional machine learning. One of the primary reasons for this is the complexity of the loss function, which increases due to recursive composition. As a result, the gradient descent optimization algorithm, which is widely used in training neural networks, can often behave in unexpected and non-intuitive ways.

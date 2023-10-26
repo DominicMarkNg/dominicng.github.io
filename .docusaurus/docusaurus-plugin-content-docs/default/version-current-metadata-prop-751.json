@@ -17,7 +17,7 @@
       },
       {
         "type": "category",
-        "label": "probability",
+        "label": "Probability",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -35,15 +35,15 @@
               },
               {
                 "type": "link",
-                "label": "Graph Theory Basics",
-                "href": "/docs/Probability/Combinatorics/Graph Theory Basics",
-                "docId": "Probability/Combinatorics/Graph Theory Basics"
-              },
-              {
-                "type": "link",
                 "label": "Pigeonhole Principle",
                 "href": "/docs/Probability/Combinatorics/Pigeonhole Principle",
                 "docId": "Probability/Combinatorics/Pigeonhole Principle"
+              },
+              {
+                "type": "link",
+                "label": "Graph Theory Basics",
+                "href": "/docs/Probability/Combinatorics/Graph Theory Basics",
+                "docId": "Probability/Combinatorics/Graph Theory Basics"
               }
             ]
           },
@@ -58,6 +58,26 @@
             "label": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
             "href": "/docs/Probability/Discrete Random Variables",
             "docId": "Probability/Discrete Random Variables"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Linear Algebra",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Intro",
+            "href": "/docs/Linear Algebra/Intro",
+            "docId": "Linear Algebra/Intro"
+          },
+          {
+            "type": "link",
+            "label": "Matrix Operations, Special Matrices, and Matrix Decompositions",
+            "href": "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
+            "docId": "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions"
           }
         ]
       },
@@ -125,9 +145,9 @@
             "items": [
               {
                 "type": "link",
-                "label": "Secant Line",
-                "href": "/docs/Calculus/Elementary/Secant Line",
-                "docId": "Calculus/Elementary/Secant Line"
+                "label": "Limits",
+                "href": "/docs/Calculus/Elementary/Limits",
+                "docId": "Calculus/Elementary/Limits"
               },
               {
                 "type": "link",
@@ -207,9 +227,9 @@
                   },
                   {
                     "type": "link",
-                    "label": "Graphs",
-                    "href": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs",
-                    "docId": "Neural Networks/Fundamentals/Backpropagation/Graphs"
+                    "label": "Computational Graph",
+                    "href": "/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph",
+                    "docId": "Neural Networks/Fundamentals/Backpropagation/Computational Graph"
                   }
                 ]
               },
@@ -253,9 +273,9 @@
               },
               {
                 "type": "link",
-                "label": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-                "href": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-                "docId": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges"
+                "label": "Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
+                "href": "/docs/Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
+                "docId": "Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges"
               }
             ]
           },
@@ -358,26 +378,6 @@
             ]
           }
         ]
-      },
-      {
-        "type": "category",
-        "label": "Linear Algebra",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Intro",
-            "href": "/docs/Linear Algebra/Intro",
-            "docId": "Linear Algebra/Intro"
-          },
-          {
-            "type": "link",
-            "label": "Matrix Operations, Special Matrices, and Matrix Decompositions",
-            "href": "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions",
-            "docId": "Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions"
-          }
-        ]
       }
     ]
   },
@@ -412,6 +412,12 @@
       "description": "L'Hopital's Rule",
       "sidebar": "tutorialSidebar"
     },
+    "Calculus/Elementary/Limits": {
+      "id": "Calculus/Elementary/Limits",
+      "title": "Limits",
+      "description": "In the study of calculus, understanding the concept of a limit is a stepping stone towards delving into continuous functions, derivatives, and integrals. The formal definition, often referred to as the $\\epsilon$-$\\delta$ definition, is important yet can initially seem impenetrable. These are my notes on the formal definition of limit aimed towards building an intuitive understanding.",
+      "sidebar": "tutorialSidebar"
+    },
     "Calculus/Elementary/Mean Value Function": {
       "id": "Calculus/Elementary/Mean Value Function",
       "title": "Mean Value Function",
@@ -422,12 +428,6 @@
       "id": "Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
       "title": "Power Rule, Product Rule, and Quotient Rule",
       "description": "Power Rule Using the Binomial Theorem",
-      "sidebar": "tutorialSidebar"
-    },
-    "Calculus/Elementary/Secant Line": {
-      "id": "Calculus/Elementary/Secant Line",
-      "title": "Secant Line",
-      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Calculus/Multivariable Calculus/Directional Derivatives": {
@@ -475,7 +475,7 @@
     "Intro": {
       "id": "Intro",
       "title": "Intro",
-      "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
+      "description": "---",
       "sidebar": "tutorialSidebar"
     },
     "Linear Algebra/Intro": {
@@ -514,16 +514,16 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges": {
-      "id": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-      "title": "Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-      "description": "Optimizing Deep Networks A Toolkit for Tackling Gradient Challenges",
+    "Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges": {
+      "id": "Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
+      "title": "Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
+      "description": "---",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Deep Learning Principles/Problems with Depth": {
       "id": "Neural Networks/Deep Learning Principles/Problems with Depth",
       "title": "Problems with Depth",
-      "description": "The Impact of Gradient Ratios in Deep Learning",
+      "description": "---",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Deep Reinforcement Learning/Introduction": {
@@ -538,16 +538,16 @@
       "description": "---",
       "sidebar": "tutorialSidebar"
     },
-    "Neural Networks/Fundamentals/Backpropagation/Graphs": {
-      "id": "Neural Networks/Fundamentals/Backpropagation/Graphs",
-      "title": "Graphs",
+    "Neural Networks/Fundamentals/Backpropagation/Computational Graph": {
+      "id": "Neural Networks/Fundamentals/Backpropagation/Computational Graph",
+      "title": "Computational Graph",
       "description": "---",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation": {
       "id": "Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation",
       "title": "Steps in Backpropagation",
-      "description": "Backpropagation in Neural Networks",
+      "description": "---",
       "sidebar": "tutorialSidebar"
     },
     "Neural Networks/Fundamentals/Basic Architecture": {
@@ -601,7 +601,7 @@
     "Probability/Combinatorics/Pigeonhole Principle": {
       "id": "Probability/Combinatorics/Pigeonhole Principle",
       "title": "Pigeonhole Principle",
-      "description": "---",
+      "description": "The Pigeonhole Principle: A Simplified Guide",
       "sidebar": "tutorialSidebar"
     },
     "Probability/Discrete Random Variables": {

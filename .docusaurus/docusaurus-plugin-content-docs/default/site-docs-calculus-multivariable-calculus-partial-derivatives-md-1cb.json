@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
-    "permalink": "/docs/Probability/Discrete Random Variables"
+    "title": "Matrix Operations, Special Matrices, and Matrix Decompositions",
+    "permalink": "/docs/Linear Algebra/Matrix Operations, Special Matrices, and Matrix Decompositions"
   },
   "next": {
     "title": "Gradient",

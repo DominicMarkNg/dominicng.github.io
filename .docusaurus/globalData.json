@@ -36,6 +36,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Calculus/Elementary/Limits",
+              "path": "/docs/Calculus/Elementary/Limits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Calculus/Elementary/Mean Value Function",
               "path": "/docs/Calculus/Elementary/Mean Value Function",
               "sidebar": "tutorialSidebar"
@@ -43,11 +48,6 @@
             {
               "id": "Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
               "path": "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Calculus/Elementary/Secant Line",
-              "path": "/docs/Calculus/Elementary/Secant Line",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -121,8 +121,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
-              "path": "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges",
+              "id": "Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
+              "path": "/docs/Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -141,8 +141,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Neural Networks/Fundamentals/Backpropagation/Graphs",
-              "path": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs",
+              "id": "Neural Networks/Fundamentals/Backpropagation/Computational Graph",
+              "path": "/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph",
               "sidebar": "tutorialSidebar"
             },
             {

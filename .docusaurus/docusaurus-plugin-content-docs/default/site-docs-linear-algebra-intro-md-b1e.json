@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Venturing into Deep Reinforcement Learning",
-    "permalink": "/docs/Neural Networks/Deep Reinforcement Learning/Introduction"
+    "title": "Discrete Random Variables: Quantitative Insights into Random Phenomena",
+    "permalink": "/docs/Probability/Discrete Random Variables"
   },
   "next": {
     "title": "Matrix Operations, Special Matrices, and Matrix Decompositions",

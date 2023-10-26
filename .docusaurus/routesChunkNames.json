@@ -149,7 +149,7 @@
       "plugin": "5478dce0"
     }
   },
-  "/docs-fdf": {
+  "/docs-b48": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "3dc2cb18"
@@ -176,6 +176,10 @@
     "__comp": "17896441",
     "content": "83d70654"
   },
+  "/docs/Calculus/Elementary/Limits-71d": {
+    "__comp": "17896441",
+    "content": "596ce18f"
+  },
   "/docs/Calculus/Elementary/Mean Value Function-bed": {
     "__comp": "17896441",
     "content": "0c18ff33"
@@ -183,10 +187,6 @@
   "/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule-82d": {
     "__comp": "17896441",
     "content": "49c2cb68"
-  },
-  "/docs/Calculus/Elementary/Secant Line-ba3": {
-    "__comp": "17896441",
-    "content": "ed5edf02"
   },
   "/docs/Calculus/Multivariable Calculus/Directional Derivatives-7bf": {
     "__comp": "17896441",
@@ -244,9 +244,9 @@
     "__comp": "17896441",
     "content": "64e31f59"
   },
-  "/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges-3ff": {
+  "/docs/Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges-457": {
     "__comp": "17896441",
-    "content": "584a3569"
+    "content": "64b4066b"
   },
   "/docs/Neural Networks/Deep Learning Principles/Problems with Depth-89d": {
     "__comp": "17896441",
@@ -260,9 +260,9 @@
     "__comp": "17896441",
     "content": "8031957b"
   },
-  "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs-c5f": {
+  "/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph-b00": {
     "__comp": "17896441",
-    "content": "979ae2af"
+    "content": "c7b80054"
   },
   "/docs/Neural Networks/Fundamentals/Backpropagation/Steps in Backpropagation-af8": {
     "__comp": "17896441",

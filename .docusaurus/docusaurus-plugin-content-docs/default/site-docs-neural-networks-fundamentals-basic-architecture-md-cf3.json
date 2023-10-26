@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Graphs",
-    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Graphs"
+    "title": "Computational Graph",
+    "permalink": "/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph"
   },
   "next": {
     "title": "Neural Networks",

@@ -2,7 +2,7 @@
   "unversionedId": "Intro",
   "id": "Intro",
   "title": "Intro",
-  "description": "Welcome to this compiliation of my notes on neurology and medicine. I also have a strong interest in mathematics and data science and will regularly update this series of mini-books on these areas.",
+  "description": "---",
   "source": "@site/docs/Intro.md",
   "sourceDirName": ".",
   "slug": "/Intro",

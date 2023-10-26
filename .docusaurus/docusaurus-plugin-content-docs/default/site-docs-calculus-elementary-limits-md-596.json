@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Calculus/Elementary/Limits",
+  "id": "Calculus/Elementary/Limits",
+  "title": "Limits",
+  "description": "In the study of calculus, understanding the concept of a limit is a stepping stone towards delving into continuous functions, derivatives, and integrals. The formal definition, often referred to as the $\\epsilon$-$\\delta$ definition, is important yet can initially seem impenetrable. These are my notes on the formal definition of limit aimed towards building an intuitive understanding.",
+  "source": "@site/docs/Calculus/Elementary/Limits.md",
+  "sourceDirName": "Calculus/Elementary",
+  "slug": "/Calculus/Elementary/Limits",
+  "permalink": "/docs/Calculus/Elementary/Limits",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Calculus/Elementary/Limits.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "Title": "Limits",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why does the partial derivative point up",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Why does the partial derivative point up"
+  },
+  "next": {
+    "title": "Derivatives",
+    "permalink": "/docs/Calculus/Elementary/Derivatives"
+  }
+}

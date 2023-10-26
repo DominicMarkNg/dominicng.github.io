@@ -2,7 +2,7 @@
 Title: Backpropagation Steps
 sidebar_position: 2
 ---
-
+---
 ## **Backpropagation in Neural Networks**
 
 Backpropagation is a cornerstone algorithm for training neural networks. It is based on the simple idea of minimizing the error between the predicted output and the actual output. This is achieved in two primary phases: the forward phase and the backward phase.

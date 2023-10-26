@@ -1,9 +1,8 @@
-
 ---
-Title: Neural Network Architecture
-sidebar_position: 1
+Title: Vector
+sidebar_position: 3
 ---
-
+---
 ### The Vector-Centric View of Backpropagation
 
 In this section, we will discuss the vector-centric view of backpropagation. First, we recap the vector architecture of neural networks discussed in Chapter 1. The corresponding $ k + 1 $ weight matrices between successive layers are denoted by $ W_1, \dots, W_{k+1} $. Let $ x $ be the $ d $-dimensional column vector corresponding to the input, $ h_1, \dots, h_k $ be the column vectors corresponding to the hidden layers, and $ o $ be the $ m $-dimensional column vector corresponding to the output. Then, we have the following recurrence condition for multi-layer networks:

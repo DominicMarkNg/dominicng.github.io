@@ -18,11 +18,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Permutations and Combinations",
-    "permalink": "/docs/Probability/Combinatorics/Permutations and Combinations"
-  },
-  "next": {
     "title": "Pigeonhole Principle",
     "permalink": "/docs/Probability/Combinatorics/Pigeonhole Principle"
+  },
+  "next": {
+    "title": "Introduction to Set Theory Notation",
+    "permalink": "/docs/Probability/Set Theory"
   }
 }

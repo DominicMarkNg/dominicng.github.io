@@ -2,7 +2,7 @@
   "unversionedId": "Probability/Combinatorics/Pigeonhole Principle",
   "id": "Probability/Combinatorics/Pigeonhole Principle",
   "title": "Pigeonhole Principle",
-  "description": "---",
+  "description": "The Pigeonhole Principle: A Simplified Guide",
   "source": "@site/docs/Probability/Combinatorics/Pigeonhole Principle.md",
   "sourceDirName": "Probability/Combinatorics",
   "slug": "/Probability/Combinatorics/Pigeonhole Principle",
@@ -11,14 +11,18 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Probability/Combinatorics/Pigeonhole Principle.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "Title": "Permutations and Combinations",
+    "sidebar_position": 2
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Graph Theory Basics",
-    "permalink": "/docs/Probability/Combinatorics/Graph Theory Basics"
+    "title": "Permutations and Combinations",
+    "permalink": "/docs/Probability/Combinatorics/Permutations and Combinations"
   },
   "next": {
-    "title": "Introduction to Set Theory Notation",
-    "permalink": "/docs/Probability/Set Theory"
+    "title": "Graph Theory Basics",
+    "permalink": "/docs/Probability/Combinatorics/Graph Theory Basics"
   }
 }

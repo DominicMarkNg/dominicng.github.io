@@ -12,9 +12,9 @@ $$
 a_1v_1 + a_2v_2 + a_3v_3 + \ldots + a_nv_n
 $$
 
-### Three Ways to Write a Linear Combination in \( \mathbb{R}^2 \)
+### Three Ways to Write a Linear Combination in $\mathbb{R}^2$
 
-When dealing with vectors in two-dimensional space, $ \mathbb{R}^2 $, there are three common ways to express a linear combination:
+When dealing with vectors in two-dimensional space, $\mathbb{R}^2$, there are three common ways to express a linear combination:
 
 1. **Column Way**:  
     Represent each vector as a column and line them up vertically. The linear combination can then be written as:
@@ -114,11 +114,11 @@ a_2x + b_2y &= c_2.
 \end{aligned}
 $$
 
-If $ \frac{a_1}{a_2} = \frac{b_1}{b_2} $, then the lines represented by these equations are either identical or parallel. If they are identical ($ \frac{c_1}{c_2} = \frac{a_1}{a_2} $), the system has infinitely many solutions. If not ($ \frac{c_1}{c_2} \neq \frac{a_1}{a_2} $), the system has no solution.
+If $\frac{a_1}{a_2} = \frac{b_1}{b_2}$, then the lines represented by these equations are either identical or parallel. If they are identical ($\frac{c_1}{c_2} = \frac{a_1}{a_2}$), the system has infinitely many solutions. If not ($\frac{c_1}{c_2} \neq \frac{a_1}{a_2}$), the system has no solution.
 
 ### No Solution Scenario
 
-A system of equations has no solution if the equations are parallel but not identical. In terms of the coefficients, this occurs if $ \frac{a_1}{a_2} = \frac{b_1}{b_2} $ but $ \frac{c_1}{c_2} \neq \frac{a_1}{a_2} $.
+A system of equations has no solution if the equations are parallel but not identical. In terms of the coefficients, this occurs if $\frac{a_1}{a_2} = \frac{b_1}{b_2} $ but $ \frac{c_1}{c_2} \neq \frac{a_1}{a_2}$.
 
 ### Conclusion
 
@@ -130,15 +130,15 @@ In vector calculus and linear algebra, the concept of spanning a space is fundam
 
 ### Span of Two Vectors in Mathematical Terms
 
-The linear combinations of two vectors $ \mathbf{v} $ and $ \mathbf{w} $ can be formally described by the span of these vectors, denoted as $ \text{span}(\mathbf{v}, \mathbf{w}) $. Mathematically, this is defined as:
+The linear combinations of two vectors $\mathbf{v}$ and $\mathbf{w}$ can be formally described by the span of these vectors, denoted as $\text{span}(\mathbf{v}, \mathbf{w})$. Mathematically, this is defined as:
 
 $$
 \text{span}(\mathbf{v}, \mathbf{w}) = k\mathbf{v} + c\mathbf{w},
 $$
 
-where $ \mathbf{v}, \mathbf{w} \in V $ and $ k, c \in \mathbb{F} $ are scalars.
+where $\mathbf{v}, \mathbf{w} \in V $ and $ k, c \in \mathbb{F}$ are scalars.
 
 ### Why Can't Two Vectors Span 3D Space?
 
-To span 3-dimensional space, you would need a set of vectors that can linearly combine to reach any point in that space. However, the linear combination of two vectors $ \mathbf{v} $ and $ \mathbf{w} $ will only generate a plane through the origin in 3-dimensional space, no matter how the vectors are oriented. This happens because any linear combination of $ \mathbf{v} $ and $ \mathbf{w} $ will lie in the same plane that $ \mathbf{v} $ and $ \mathbf{w} $ define. Therefore, there are points in 3-dimensional space that are not in this plane, meaning they can't be reached by any linear combination of $ \mathbf{v} $ and $ \mathbf{w} $.
+To span 3-dimensional space, you would need a set of vectors that can linearly combine to reach any point in that space. However, the linear combination of two vectors $\mathbf{v}$ and $\mathbf{w}$ will only generate a plane through the origin in 3-dimensional space, no matter how the vectors are oriented. This happens because any linear combination of $\mathbf{v}$ and $\mathbf{w}$ will lie in the same plane that $\mathbf{v}$ and $\mathbf{w}$ define. Therefore, there are points in 3-dimensional space that are not in this plane, meaning they can't be reached by any linear combination of $\mathbf{v}$ and $\mathbf{w}$.
 

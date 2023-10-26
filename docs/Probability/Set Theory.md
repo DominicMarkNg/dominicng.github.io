@@ -41,7 +41,9 @@ In mathematics, set operations are essential tools for manipulating sets and und
 
 The union of two sets, denoted as $A \cup B$, is a set that contains all elements that belong to either set $A$ or set $B$ or both. Mathematically:
 
-$$A \cup B = \{x \,|\, x \in A \text{ or } x \in B\}$$
+$$
+A \cup B = \{x \,|\, x \in A \text{ or } x \in B\}
+$$
 
 For example, if we have two sets $\{1,2\}$ and $\{2,3\}$, their union is $\{1,2,3\}$ . We can express this operation as $x \in (A \cup B)$ if and only if $(x \in A)$ or $(x \in B)$.
 
@@ -49,7 +51,9 @@ For example, if we have two sets $\{1,2\}$ and $\{2,3\}$, their union is $\{1,2,
 
 The intersection of two sets, denoted as $A \cap B$, consists of all elements that are present in both set $A$ and set $B$. Mathematically:
 
-$$A \cap B = \{x \,|\, x \in A \text{ and } x \in B\}$$
+$$
+A \cap B = \{x \,|\, x \in A \text{ and } x \in B\}
+$$
 
 For instance, the intersection of $\{1,2\}$ and $\{2,3\}$ results in $\{2\}$. We can visualize the intersection using a Venn diagram.
 
@@ -126,7 +130,9 @@ The Distributive Law is a fundamental principle in mathematics, particularly in 
 
 The left distributive law states that for any real numbers $a$, $b$, and $c$:
 
-$$a \cdot (b + c) = (a \cdot b) + (a \cdot c)$$
+$$
+a \cdot (b + c) = (a \cdot b) + (a \cdot c)
+$$
 
 In other words, you can distribute the multiplication $a$ across the addition $b + c$, resulting in the sum of $a \cdot b$ and $a \cdot c$.
 
@@ -134,7 +140,9 @@ In other words, you can distribute the multiplication $a$ across the addition $b
 
 The right distributive law is similar but works in the opposite direction. It states that for any real numbers $a$, $b$, and $c$:
 
-$$(b + c) \cdot a = (b \cdot a) + (c \cdot a)$$
+$$
+(b + c) \cdot a = (b \cdot a) + (c \cdot a)
+$$
 
 Here, you can distribute the multiplication $a$ across the addition $b + c$, resulting in the sum of $b \cdot a$ and $c \cdot a$.
 
@@ -148,7 +156,9 @@ Let's illustrate the Distributive Law with an example:
 
 Suppose we have the expression $3 \cdot (2 + 4)$. We can apply the left distributive law to simplify it as follows:
 
-$$3 \cdot (2 + 4) = (3 \cdot 2) + (3 \cdot 4) = 6 + 12 = 18$$
+$$
+3 \cdot (2 + 4) = (3 \cdot 2) + (3 \cdot 4) = 6 + 12 = 18
+$$
 
 The Distributive Law enables us to distribute the multiplication across the addition, making the calculation straightforward.
 

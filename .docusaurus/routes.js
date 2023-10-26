@@ -69,7 +69,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fdf'),
+    component: ComponentCreator('/docs', 'b48'),
     routes: [
       {
         path: '/docs/Calculus/Elementary/Basic Rules + Proofs',
@@ -102,6 +102,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Calculus/Elementary/Limits',
+        component: ComponentCreator('/docs/Calculus/Elementary/Limits', '71d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/Calculus/Elementary/Mean Value Function',
         component: ComponentCreator('/docs/Calculus/Elementary/Mean Value Function', 'bed'),
         exact: true,
@@ -110,12 +116,6 @@ export default [
       {
         path: '/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule',
         component: ComponentCreator('/docs/Calculus/Elementary/Power Rule, Product Rule, and Quotient Rule', '82d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Calculus/Elementary/Secant Line',
-        component: ComponentCreator('/docs/Calculus/Elementary/Secant Line', 'ba3'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -204,8 +204,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges',
-        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Optimizing Deep Networks: A Toolkit for Tackling Gradient Challenges', '3ff'),
+        path: '/docs/Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges',
+        component: ComponentCreator('/docs/Neural Networks/Deep Learning Principles/Optimising Deep Networks: A Toolkit for Tackling Gradient Challenges', '457'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -228,8 +228,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Neural Networks/Fundamentals/Backpropagation/Graphs',
-        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Backpropagation/Graphs', 'c5f'),
+        path: '/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph',
+        component: ComponentCreator('/docs/Neural Networks/Fundamentals/Backpropagation/Computational Graph', 'b00'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

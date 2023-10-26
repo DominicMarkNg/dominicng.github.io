@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Matrix Multiplication as Linear Combination of Columns
 
-Matrix multiplication can be visualized in a variety of ways, but one of the most intuitive methods is to think of it as a linear combination of columns. Let's consider a matrix $ A $ of dimensions $ m \times n $ and a column vector $ \mathbf{x} $ of dimensions $ n \times 1 $.
+Matrix multiplication can be visualized in a variety of ways, but one of the most intuitive methods is to think of it as a linear combination of columns. Let's consider a matrix $A$ of dimensions $m \times n$ and a column vector $\mathbf{x}$ of dimensions $n \times 1$.
 
 $$
 A = \begin{pmatrix}
@@ -24,7 +24,7 @@ x_n
 \end{pmatrix}
 $$
 
-Multiplying $ A $ by $ \mathbf{x} $ is then equivalent to taking a linear combination of the columns of $ A $, scaled by the corresponding elements in $ \mathbf{x} $.
+Multiplying $A$ by $\mathbf{x}$ is then equivalent to taking a linear combination of the columns of $A$, scaled by the corresponding elements in $\mathbf{x}$.
 
 $$
 A\mathbf{x} = x_1 \begin{pmatrix}
@@ -49,15 +49,15 @@ a_{mn}
 \end{pmatrix}
 $$
 
-### Implications for $ Ax = b $
+### Implications for $Ax = b$
 
-This view of matrix multiplication also offers insight into the equation $ Ax = b $. If $ b $ is to be the result of $ Ax $, then $ b $ must lie in the column space of $ A $. In other words, $ b $ must be representable as a linear combination of the columns of $ A $.
+This view of matrix multiplication also offers insight into the equation $Ax = b$. If $b$ is to be the result of $Ax$, then $b$ must lie in the column space of $A$. In other words, $b$ must be representable as a linear combination of the columns of $A$.
 
-Thus, when you're solving $ Ax = b $, you're essentially finding the weights (or coefficients) that create $ b $ from the columns of $ A $. If $ b $ is not in the column space of $ A $, then the equation $ Ax = b $ has no solution.
+Thus, when you're solving $Ax = b$, you're essentially finding the weights (or coefficients) that create $b$ from the columns of $A$. If $b$ is not in the column space of $A$, then the equation $Ax = b$ has no solution.
 
 ## The Trace of a Matrix and Its Importance
 
-The trace of a square matrix is defined as the sum of its diagonal elements. For a square matrix $ A $ of dimensions $ n \times n $, the trace is given by:
+The trace of a square matrix is defined as the sum of its diagonal elements. For a square matrix $A$ of dimensions $n \times n$, the trace is given by:
 
 $$
 \text{Tr}(A) = a_{11} + a_{22} + \ldots + a_{nn} = \sum_{i=1}^{n} a_{ii}
@@ -67,7 +67,7 @@ $$
 
 The trace has several useful properties and applications in mathematics, computer science, and engineering. Some of the key reasons why it is important are:
 
-1. **Invariance Under Similarity Transform**: If $ B = P^{-1}AP $ where $ P $ is invertible, then $ \text{Tr}(A) = \text{Tr}(B) $. This makes the trace useful in studying the characteristics of similar matrices.
+1. **Invariance Under Similarity Transform**: If $B = P^{-1}AP$ where $P$ is invertible, then $\text{Tr}(A) = \text{Tr}(B)$. This makes the trace useful in studying the characteristics of similar matrices.
 
 2. **Easy to Compute**: Unlike the determinant, the trace can be quickly computed as it is simply the sum of diagonal elements.
 
@@ -95,22 +95,22 @@ a_{11} & a_{12} \\
 a_{21} & a_{22}
 \end{bmatrix}
 $$
-The determinant, denoted as `det(A)` or $ |A| $, is defined as:
+The determinant, denoted as `det(A)` or $|A|$, is defined as:
 $$
 \text{det}(A) = a_{11}a_{22} - a_{12}a_{21}
 $$
 
 ### Laplace Expansion
 
-For larger matrices, the determinant can be computed using a method called the Laplace expansion (or cofactor expansion). For an $ n \times n $ matrix $ A $, the determinant is given by:
+For larger matrices, the determinant can be computed using a method called the Laplace expansion (or cofactor expansion). For an $n \times n$ matrix $A$, the determinant is given by:
 $$
 \text{det}(A) = \sum_{j=1}^{n} (-1)^{i+j} A_{ij} \text{det}(a_{ij})
 $$
-where $ i $ is a fixed row, $ A_{ij} $ is the element of the matrix at the $ i^{th} $ row and $ j^{th} $ column, and $ a_{ij} $ represents the submatrix obtained by removing the $ i^{th} $ row and $ j^{th} $ column from $ A $.
+where $i$ is a fixed row, $A_{ij}$ is the element of the matrix at the $i^{th}$ row and $j^{th}$ column, and $a_{ij}$ represents the submatrix obtained by removing the $i^{th}$ row and $j^{th}$ column from $A$.
 
 ### Geometric Interpretation
 
-The determinant can be thought of as a measure of volume. Specifically, for a square matrix whose columns (or rows) represent vectors in $ \mathbb{R}^n $, the absolute value of its determinant gives the volume of the parallelepiped spanned by these vectors.
+The determinant can be thought of as a measure of volume. Specifically, for a square matrix whose columns (or rows) represent vectors in $\mathbb{R}^n$, the absolute value of its determinant gives the volume of the parallelepiped spanned by these vectors.
 
 ### Importance of the Determinant
 
@@ -132,15 +132,15 @@ One of the foundational ideas in linear algebra is the concept of a matrix as a 
 
 ### The Role of Determinant in Inverse Transformation
 
-If a matrix $ A $ is responsible for a particular transformation, the matrix $ A^{-1} $ should theoretically undo this transformation. This works flawlessly when the determinant is non-zero because the transformation keeps the dimensions intact, meaning that if you started in a 2D plane, you will remain in a 2D plane. You can always find a unique mapping back to the original space.
+If a matrix $A$ is responsible for a particular transformation, the matrix $A^{-1}$ should theoretically undo this transformation. This works flawlessly when the determinant is non-zero because the transformation keeps the dimensions intact, meaning that if you started in a 2D plane, you will remain in a 2D plane. You can always find a unique mapping back to the original space.
 
 However, when the determinant is zero, the matrix effectively collapses the dimensions. In a 2D space, for example, the transformation might map a rectangle to a single line. All the points from the original 2D figure are compressed into a 1D line, losing their original identity. Now, it becomes impossible to uniquely map these points back to their original positions. In essence, the transformation is irreversible, and hence an inverse matrix does not exist.
 
 ### Geometric Interpretation and Linear Transformations
 
-To further dissect the situation, consider a 2x2 matrix transforming a plane $ \mathbb{R}^2 $. Even if this matrix collapses the plane to a line or a point, these reduced-dimension figures still exist within $ \mathbb{R}^2 $. The problem arises when we try to reverse the transformation. 
+To further dissect the situation, consider a 2x2 matrix transforming a plane $\mathbb{R}^2$. Even if this matrix collapses the plane to a line or a point, these reduced-dimension figures still exist within $\mathbb{R}^2$. The problem arises when we try to reverse the transformation. 
 
-For transformations that are products of matrices, say $ AB $ or $ BA $, if the determinant of $ A $ is zero, there are points in $ \mathbb{R}^2 $ that are unreachable by $ A $, making it impossible to map them back via $ B $. Moreover, linear transformations always map the zero vector to itself, further complicating the situation when trying to find an inverse transformation.
+For transformations that are products of matrices, say $AB$ or $BA$, if the determinant of $A$ is zero, there are points in $\mathbb{R}^2$ that are unreachable by $A$, making it impossible to map them back via $B$. Moreover, linear transformations always map the zero vector to itself, further complicating the situation when trying to find an inverse transformation.
 
 To summarize, a zero determinant essentially collapses the original space to a lower dimension, making it impossible to reverse the transformation uniquely. Therefore, for a matrix to be invertible, it is crucial that its determinant is not zero.
 
@@ -164,7 +164,7 @@ The main advantage of diagonal matrices is their simplicity in calculations, esp
 
 ### Symmetric Matrix
 
-A symmetric matrix is a matrix that is equal to its transpose. Formally, if $ A $ is a matrix, then it is symmetric if:
+A symmetric matrix is a matrix that is equal to its transpose. Formally, if $A$ is a matrix, then it is symmetric if:
 
 $$
 A = A^T
@@ -174,7 +174,7 @@ Symmetric matrices often arise in applications where the matrix is formed by inn
 
 ### Unit Vector
 
-A unit vector is a vector with a "length" or norm equal to 1. Typically, the norm referred to is the $ l_2 $ norm. It can be represented as:
+A unit vector is a vector with a "length" or norm equal to 1. Typically, the norm referred to is the $l_2$ norm. It can be represented as:
 
 $$
 ||v||_2 = 1
@@ -184,7 +184,7 @@ Such vectors are crucial in normalizing vectors in various spaces, ensuring they
 
 ### Orthogonal Vector
 
-Two vectors are said to be orthogonal if their dot product is zero. That is, for vectors $ x $ and $ y $:
+Two vectors are said to be orthogonal if their dot product is zero. That is, for vectors $x$ and $y$:
 
 $$
 x \cdot y = 0
@@ -204,7 +204,7 @@ $$
 A^T = A^{-1}
 $$
 
-This implies that $ A^T A = AA^T = I $, where $ I $ is the identity matrix. Orthogonal matrices represent rotational operations that preserve volume and are pivotal in various transformations and decompositions.
+This implies that $A^T A = AA^T = I$, where $I$ is the identity matrix. Orthogonal matrices represent rotational operations that preserve volume and are pivotal in various transformations and decompositions.
 
 These special matrices and vectors form the backbone of many mathematical operations and concepts, ensuring efficiency and simplicity in computations.
 
@@ -268,9 +268,9 @@ Singular Value Decomposition (SVD) is an essential concept in matrix factorizati
   
 - The process of factorizing matrices in SVD is based on the fundamental geometric operations of **stretch and rotation**.
 
-- For a given matrix $$ A $$ that is $$ m \times n $$:
-  - $$ A = UDV^T $$
-  - $$ U $$ is an $$ m \times m $$ orthogonal matrix. The elements of $$ U $$ are the eigenvectors of $$ AA^T $$ and are referred to as the **left-singular vectors**.
-  - $$ V $$ is an $$ n \times n $$ orthogonal matrix. The elements of $$ V $$ are the eigenvectors of $$ A^TA $$ and are termed the **right-singular vectors**.
-  - $$ D $$ is an $$ m \times n $$ diagonal matrix. The non-zero elements of $$ D $$ are the square roots of the eigenvalues of $$ A^TA $$ (or equivalently, $$ AA^T $$), and these are called the **singular values**.
+- For a given matrix $A$ that is $m \times n$:
+  - $A = UDV^T$
+  - $U$ is an $m \times m$ orthogonal matrix. The elements of $U$ are the eigenvectors of $AA^T$ and are referred to as the **left-singular vectors**.
+  - $V$ is an $n \times n$ orthogonal matrix. The elements of $V$ are the eigenvectors of $A^TA$ and are termed the **right-singular vectors**.
+  - $D$ is an $m \times n$ diagonal matrix. The non-zero elements of $$D$$ are the square roots of the eigenvalues of $A^TA$ (or equivalently, $AA^T$), and these are called the **singular values**.
 

@@ -20,5 +20,9 @@
   "previous": {
     "title": "Intro",
     "permalink": "/docs/Linear Algebra/Intro"
+  },
+  "next": {
+    "title": "Partial Derivatives",
+    "permalink": "/docs/Calculus/Multivariable Calculus/Partial Derivatives"
   }
 }
